@@ -76,20 +76,20 @@ with col2:
         <p style="margin-bottom: 15px;">
             <a href="{linkedin_link}" target="_blank" style="text-decoration: none;">
                 <img src="data:image/png;base64,{linkedin_icon}" width="30" height="30" style="vertical-align: middle; margin-right: 8px;" />
+                <span style="color: teal;">LinkedIn</span>
             </a>
-            <span>LinkedIn</span>
         </p>
         <p style="margin-bottom: 15px;">
             <a href="{email_link}" style="text-decoration: none;">
                 <img src="data:image/png;base64,{email_icon}" width="30" height="30" style="vertical-align: middle; margin-right: 8px;" />
+                <span style="color: teal;">Email</span>
             </a>
-            <span>Email</span>
         </p>
         <p style="margin-bottom: 15px;">
             <a href="{github_link}" target="_blank" style="text-decoration: none;">
                 <img src="data:image/png;base64,{github_icon}" width="30" height="30" style="vertical-align: middle; margin-right: 8px;" />
+                <span style="color: teal;">GitHub</span>
             </a>
-            <span>GitHub</span>
         </p>
         """.format(
             linkedin_link=LINKEDIN_LINK,

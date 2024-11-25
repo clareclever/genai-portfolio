@@ -1,4 +1,6 @@
-Name: Clare Clever 
+Name: Clare Clever
+Gender: Male
+Pronouns: He/Him/His
 Location: Charleston, SC
 Phone Number: (205) 420-9171
 Email: clare.clever@leidos.com
