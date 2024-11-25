@@ -33,7 +33,8 @@ with col2:
     st.markdown("### **Systems Engineer**")
     st.markdown(
         """
-        UPDATE SUB-HEADING
+        I am driven by a passion for harnessing :turquoise-background[technology] to create meaningful and innovative solutions. With experience spanning :turquoise-background[AI/ML], cybersecurity, and automation, I thrive on building efficient systems and collaborating on cutting-edge projects that make a tangible impact. 
+        \n\nPlease check out my resume below or visit the Q&A tab to learn more!
         """
     )
 
