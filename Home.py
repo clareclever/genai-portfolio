@@ -30,7 +30,7 @@ col1, col2, col3, col4 = st.columns([0.5, 2.5, 2, 0.5])
 with col2:
     # Introduction with emphasis
     st.title("Hi, I'm Clare Clever!")
-    st.markdown("### **Systems Engineer**")
+    st.markdown("### **Systems Engineer at Leidos**")
     st.markdown(
         """
         I am passionate about leveraging :green-background[technology] to drive innovation in :green-background[AI/ML], :green-background[cybersecurity], and :green-background[automation], building :green-background[impactful] solutions and collaborating on :green-background[cutting-edge] projects.
