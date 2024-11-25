@@ -33,7 +33,7 @@ with col2:
     st.markdown("### **Systems Engineer**")
     st.markdown(
         """
-        I am driven by a passion for harnessing :green-background[technology] to create meaningful and innovative solutions. With experience spanning :green-background[AI/ML], :green-background[cybersecurity], and :green-background[automation], I thrive on building efficient systems and collaborating on cutting-edge projects that make a tangible impact. 
+        I am passionate about leveraging :turquoise-background[technology] to drive innovation in :turquoise-background[AI/ML], :turquoise-background[cybersecurity], and :turquoise-background[automation], building impactful solutions and collaborating on cutting-edge projects.
         \n\nPlease check out my resume below or visit the Q&A tab to learn more!
         """
     )
