@@ -18,9 +18,9 @@ GITHUB_ICON_PATH = "assets/GitHub.png"
 EMAIL_ICON_PATH = "assets/Email.png"
 
 # Links to LinkedIn, Email, and GitHub accounts
-LINKEDIN_LINK = "https://www.linkedin.com/in/jannekeclever/"
-EMAIL_LINK = "mailto:jannekemorin@gmail.com"
-GITHUB_LINK = "https://github.com/jannekemorin"
+LINKEDIN_LINK = "https://www.linkedin.com/in/clareclever/"
+EMAIL_LINK = "mailto:boinest312@gmail.com"
+GITHUB_LINK = "https://github.com/ClareClever99"
 
 # --- MAIN CONTENT ---
 # Create columns for layout
@@ -29,13 +29,11 @@ col1, col2, col3, col4 = st.columns([0.5, 2.5, 2, 0.5])
 # --- LEFT SECTION (Bio and Resume Download) ---
 with col2:
     # Introduction with emphasis
-    st.title("Hi, I'm Janneke Clever!")
-    st.markdown("### **AI/ML Specialist**")
+    st.title("Hi, I'm Clare Clever!")
+    st.markdown("### **Systems Engineer**")
     st.markdown(
         """
-        I am passionate about leveraging :violet-background[technology] to solve real-world problems. 
-        I enjoy exploring new :violet-background[AI/ML] tools and techniques as well as collaborating with others on innovative projects.
-        \n\nPlease check out my resume below or visit the Q&A tab to learn more!
+        UPDATE SUB-HEADING
         """
     )
 
@@ -47,7 +45,7 @@ with col2:
     st.download_button(
         label="📄 Download Resume",  # You can replace the emoji with text or another icon
         data=pdf_bytes,
-        file_name="Janneke's Resume.pdf",
+        file_name="Clare's Resume.pdf",
         mime="application/pdf"
     )
 

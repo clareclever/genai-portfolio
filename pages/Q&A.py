@@ -10,7 +10,7 @@ genai.configure(api_key=st.secrets["API_KEY"])
 st.set_page_config(page_title="Q&A", layout="wide")
 
 # Predefined questions for the user to select from
-FIRST_NAME = "Janneke"
+FIRST_NAME = "Clare"
 PREDEFINED_QUESTIONS = [
     f"👩‍💻 What is {FIRST_NAME}'s current role?",
     f"💼 What are {FIRST_NAME}'s top skills?",

@@ -1,61 +1,143 @@
-JANNEKE CLEVER  
+Name: Clare Clever 
 Location: Charleston, SC
-Phone: 843.467.1821
-Email: jannekemorin@gmail.com
-LinkedIn linkedin.com/in/jannekeclever
+Phone Number: (205) 420-9171
+Email: clare.clever@leidos.com
+LinkedIn Profile: https://www.linkedin.com/in/clareclever
 
-SUMMARY
-Dynamic Data Scientist with a software engineering background and a knack for crafting innovative, data-driven solutions. Adept at developing AI applications—including Generative AI (RAG, Agentic AI)—on leading cloud platforms. Proven track record of modernizing systems, streamlining workflows, and creating custom solutions that drive business success.
+= EXPERIENCE =
 
-EXPERIENCE
-AI/ML Consultant II; Capgemini Government Solutions – Feb 2024 to Present
-Developed Agentic AI system for advanced Q&A, leveraging SQL, documentation, and visualization tools.
-Built scalable Generative AI prototype on AWS to transform information retrieval and response generation.
-Modernized legacy R-based classification model using Azure ML, improving transparency and efficiency.
-Optimized key report generation, automating data prep steps to achieve a 75% reduction in manual effort. 
-Created central AI knowledge base, driving ethical standards across projects, training, and go-to-market.
+Title: Air Traffic Logistics Engineer (II)
+Company: Leidos
+Dates: Apr 2024 to Present
+Type: Full-time
+Location: Washington DC-Baltimore Area · Remote
+• Orchestrated logistics operations, optimizing support for the FAA’s E-IDS program.
+• Maintained comprehensive tech refresh plan for system upgrades.
+• Compiled tools and test equipment list for remove and replace activities.
+• Performed detailed site and depot spares analysis for inventory planning and optimization.
 
-AI/ML Consultant I; Capgemini Government Solutions – Jan 2022 to Jan 2024
-Spearheaded development of Power BI-based zip code lookup tool, enabling seamless program referrals nationwide.
-Improved data accuracy and compliance by implementing Azure AI-driven form processing and correction.
-Led company-wide hackathon fostering employee upskilling in AI and sustainability initiatives.
-Supported AI-related proposal bids by collecting qualifications and structuring key data.
+= E-IDS (Enterprise Information Display System) is a key component of the FAA’s Next Generation Air Transportation System, designed to modernize information management in the National Airspace System. E-IDS consolidates and displays critical real-time information, enhancing situational awareness and supporting decision-making for air traffic controllers and system operators.
 
-Technical Operations Specialist; Ceterus – May 2020 to Sep 2021
-Managed and responded to hundreds of complex product support tickets.
-Accurately documented and escalated technical issues to the Software Engineering Team.
-Utilized technologies such as SQL, Curl, and Google Data Studio to analyze information for ad hoc requests.
-Revamped technical processes for improved efficiency while clearly documenting new procedures.
+Title: Enterprise Security Integration Engineer (II)
+Company: Leidos
+Dates: Oct 2023 to Apr 2024 · 7 mos
+Type: Full-time
+Location: Boston, Massachusetts, United States · On-site
+• Rigorously tested & validated security equipment for optimal protection.
+• Developed and deployed scalable, automated self-service checkpoints for secure data centers.
+• Led data collection for ML model training, boosting detection & security.
+• Implemented AI and ML algorithms to detect and neutralize insider threats.
+• Guided network engineering for seamless integration into critical infrastructure.
+• Automated thorough and efficient checks of people and goods with cutting-edge tech.
+• Collaborated with teams to evaluate & mitigate vulnerabilities in critical assets.
+• Enhanced security operations, allowing users to pass through the system in under 50 seconds.
+• Improved employee experience with an inclusive and respectful screening environment.
+• Implemented Cat6 cabling, terminated connections, & planned equipment placement.
+• Managed equipment assembly, materials, & cable marking for efficient execution.
+• Contributed to frictionless and efficient security processes for employees and personnel.
+Skills: Networking · Computer Hardware Troubleshooting · Artificial Intelligence (AI) · Machine Learning · DevSecOps · Agile Methodologies · Cybersecurity · Automation
 
-Software Engineer; Fogchain, Inc. – May 2019 to August 2019
-Constructed an interactive, introductory course to load testing through Apache JMeter.
-Shadowed senior engineers to learn best practices in coding and system design.
-Learned Git version control to manage and track code changes across projects.
+Title: Air Traffic Infrastructure Engineer (I & II)
+Company: Leidos
+Dates: Mar 2023 to Oct 2023 · 8 mos
+Type: Full-time
+Location: Washington DC-Baltimore Area · Remote
+• Implemented various security enhancements for all SDS servers.
+• Enhanced SDS documentation allowing users to better utilize the application.
+• Collaborated across teams to plan infrastructure upgrades to improve system performance and reliability.
+• Designed and implemented automation scripts for routine tasks, increasing operational efficiency.
+• Troubleshooted and resolved hundreds of software/hardware issues quickly and efficiently.
+• Implemented critical security measures to harden infrastructure.
+• Helped with transition to virtual machines, increasing efficiency, scalability, and saving costs.
+• Monitored and maintained SkyDataSentry (SDS) to ensure optimal performance and uptime.
+• Provided technical support to employees, customers and users on a wide range of topics.
+Skills: Linux · Hardware Architecture · Networking · Computer Hardware Troubleshooting · Server Administration · Virtualization · Databases · Agile Methodologies · Cybersecurity
 
-EDUCATION
-Bachelor of Science – BS, Computer Science, minor: Data Science – College of Charleston
-Graduated: Fall 2021 | GPA: 3.98 | Honors College | Computer Science Tutor 
+Title: Air Traffic Software Engineer (I)
+Company: Leidos
+Dates: Jun 2021 to Mar 2023 · 1 yr 10 mos
+Type: Full-time
+Location: Washington DC-Baltimore Area · Hybrid
+• Fixed bugs and made improvements to SkyDataSentry (SDS) under the FAA’s ERAM program.
+• Increased speed of SDS queries by 30% through multiprocessing and threading. 
+• Added several UI/UX improvements to SDS making it 65% more user friendly.
+• Tackled numerous hardware issues and performed countless upgrades to hundreds of SDS servers.
+= SDS (SkyDataSentry) provides critical data integration and management to enhance air traffic operations. SDS ensures the secure and efficient transmission of real-time data across the National Airspace System, supporting decision-making for air traffic controllers and enabling more precise air traffic management.
+= ERAM (En-Route Automation Modernization) is the heart of the Next Generation Air Transportation System and the pulse of the National Airspace System helping to advance our transition from a ground-based system of air traffic control to a satellite-based system of air traffic management.
+Skills: Python · Software Development · JavaScript · HTML · Web Analytics · Agile Methodologies · Cascading Style Sheets (CSS)
 
-SKILLS
-Programming: Python, Java, R, C, SQL, JavaScript, HTML, CSS, Git
-Data Analytics: 5+ years experience in Data Analytics, Modeling, Visualization (Power BI)
-Cloud Platforms: Proficient in Azure, AWS, Google Cloud (GenAI L-400 Certified)
-Generative AI: Skilled in building with multiple LLMs (Gemini, Claude, Llama) and Agentic AI frameworks (CrewAI)
-AI/ML: Proficient in Python libraries (Scikit-learn, Pandas, Matplotlib) with versatility across multiple ML frameworks
+Title: Mobile Application Developer
+Company: Interloop.ai
+Type: Internship
+Dates: Feb 2021 to May 2021 · 4 mos
+Location: Charleston, South Carolina · Hybrid
+• Built Angular/Bootstrap "sidekick" app for Palmetto EV scooter support.
+• Optimized scooter app data with in-memory DB for performance boost.
+• Utilized Scrum & Agile for efficient development & client satisfaction.
+= A sidekick is a helper app that runs alongside desktop software for easy access to crucial information.
+Skills: Software Development · Databases · Agile Methodologies
 
-AWARDS
-- School of Science and Mathematics Research Grant Recipient - CofC, Summer 2019
-- Richard Crosby Award for highest achievement in CSCI 220 (introductory CS class) - CofC, Spring 2019
-- First Year Writing Award - CofC, Spring 2019
+Title: RISE Leadership Program
+Company: Capgemini
+Type: Internship
+Dates: Aug 2020 to Aug 2020 · 1 mo
+Location: Columbia, South Carolina · Remote
+• Developed tech solution for sustainable auto parts manufacturing in 3-day team sprint.
+• Gleaned insights from Capgemini mentors during intensive tech creation program.
+= RISE is Capgemini’s new leadership program aimed at giving rising seniors an in-depth look into the field of technology consulting. This is a high-intensity, interactive, 3-day session where students will be exposed to Capgemini resources and design centers. You will be offered many opportunities to flex your critical-thinking skills against real-life problems, to gain a true understanding of how working in a global technology consulting firm can support your career path, and to meet like-minded students from across the country. Students will be grouped together and tasked with a “project” to solve which will result in a tangible product that you will then present to a panel of judges.
+Skills: Software Development · Agile Methodologies
 
-VOLUNTEER EXPERIENCE
-Title: Student Mentor
-Organization: INTelligence Elementary School Program
-Date Range: Jan 2020 - Mar 2020
-- Worked with peers to introduce coding concepts to local elementary school students.
+Title: Air Traffic Systems Engineer
+Company: Leidos
+Type: Internship
+Dates: May 2020 to Aug 2020 · 4 mos
+Location: Washington DC-Baltimore Area · Remote
+• Conceptualized plan to provide webserver redundancy to SDS.
+• Created forecasting models to accurately project future SDS database collection sizes.
+• Added raw data option to SDS IO log report page.
+= SkyDataSentry (SDS) is a browser-based software application for use in monitoring, managing, and maintaining data for air traffic management systems to enhance problem identification, data retrieval, and reporting.
+Skills: Hardware Architecture · Databases
 
-PERSONAL INFORMATION
-- Married and residing in Johns Island.
-- Running: Enjoy participating in local races and maintaining an active lifestyle. Loves to play pickleball.
-- Cooking: Passionate about experimenting with new recipes and cuisines.
-- Dog Lover: Loves dogs
+Title: Full Stack Developer
+Company: Computer Aid, Inc.
+Type: Part-time
+Dates: Dec 2018 to May 2020 · 1 yr 6 mos
+Location: Charleston, South Carolina · Remote
+• Helped modernize a Procurement Development Application for the Florida Department of Transportation.
+• Implemented Blazor/ASP.NET Core client project management tool with Azure DB integration.
+• Trained in mobile app development using Xamarin.Forms.
+• Received training in robotic process automation using UiPath.
+• Automated product registration page for Greenworks using Zendesk Sunshine.
+Skills: C# · Software Development · Web Analytics
+
+Title: Cyber Security Analyst
+Company: Santee Cooper
+Type: Internship
+Dates: May 2019 to Aug 2019 · 4 mos
+Location: Moncks Corner, South Carolina · On-site
+• Optimized malware detection system’s logging infrastructure which led to a 15% increase in throughput.
+• Removed zero-hit firewall guidelines accelerating policy checking by nearly 25%.
+• Performed DLP testing on an endpoint protection database for a network discovery server.
+• Modified network servers to utilize SNMP polling to strengthen authentication and privacy encryption.
+• Utilized multiple endpoint antivirus software's to heighten SIEM correlation rule checking.
+• Installed and configured a forensic analysis tool on a virtual server to scan for high-risk security vulnerabilities.
+• Conducted Nmap scan to categorize and detail all active IP addresses on the company network.
+Skills: Linux · Networking · Cybersecurity
+
+= EDUCATION =
+
+Bachelor of Science – BS, Computer Science: College of Charleston
+Minor: Data Science | Graduation: Spring 2021
+
+= SKILLS =
+
+• Written 10,000+ lines of Java, Python, R, C, C#, SQL, Swift, JavaScript, HTML, and CSS
+• 5+ years of experience in AI/ML, Analytics, .NET, PowerShell, Azure, Git, and 3D Printing
+• Proficient in Networking, Linux, Virtualization, Server Administration, Hardware Troubleshooting
+
+= AWARDS =
+
+• Latin Honors Graduate: Cum Laude; CofC – Spring 2021
+• Outstanding Student: Computer Science Department; CofC – Spring 2021
+• Member of Upsilon Pi Epsilon: Computer Science Honor Society; CofC – Spring 2021
+• Member of Winning Team for Division Two at ICPC: Southeast North America Regionals; CofC – Fall 2019
