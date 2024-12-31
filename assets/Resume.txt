@@ -13,12 +13,18 @@ Company: Leidos
 Dates: Apr 2024 to Present
 Type: Full-time
 Location: Washington DC-Baltimore Area · Remote
-• Orchestrated logistics operations, optimizing support for the FAA’s E-IDS program.
-• Maintained comprehensive tech refresh plan for system upgrades.
-• Compiled tools and test equipment list for remove and replace activities.
-• Performed detailed site and depot spares analysis for inventory planning and optimization.
+• Orchestrated logistics operations to optimize support for the FAA’s E-IDS program.
+• Created hardware breakdown structure to support provisioning through top-down system analysis.
+• Compiled tools and test equipment list to support repairs and provisioning requirements.
+• Prepared logistics management information to support materiel operations with design data.
+• Conducted repair level and spares analysis to optimize inventory and maintenance processes.
+• Maintained technology refresh plan to manage system upgrades and obsolescence.
+• Generated warranty reports to track failures, assess provisions, and document coverage schedules.
+• Assisted in the development and planning of the help desk support system.
+• Supported inventory tracking and assigned components as LRUs.
+• Planned setup procedures and developed agenda for the Provisioning Conference.
 
-= E-IDS (Enterprise Information Display System) is a key component of the FAA’s Next Generation Air Transportation System, designed to modernize information management in the National Airspace System. E-IDS consolidates and displays critical real-time information, enhancing situational awareness and supporting decision-making for air traffic controllers and system operators.
+= E-IDS (Enterprise Information Display System) is part of the FAA's NextGen initiative, modernizing information management by consolidating real-time data to enhance situational awareness and decision-making for air traffic controllers.
 
 Title: Enterprise Security Integration Engineer (II)
 Company: Leidos
@@ -28,7 +34,7 @@ Location: Boston, Massachusetts, United States · On-site
 • Rigorously tested & validated security equipment for optimal protection.
 • Developed and deployed scalable, automated self-service checkpoints for secure data centers.
 • Led data collection for ML model training, boosting detection & security.
-• Implemented AI and ML algorithms to detect and neutralize insider threats.
+• Implemented AI/ML algorithms to detect and neutralize insider threats.
 • Guided network engineering for seamless integration into critical infrastructure.
 • Automated thorough and efficient checks of people and goods with cutting-edge tech.
 • Collaborated with teams to evaluate & mitigate vulnerabilities in critical assets.
@@ -61,8 +67,8 @@ Dates: Jun 2021 to Mar 2023 · 1 yr 10 mos
 Type: Full-time
 Location: Washington DC-Baltimore Area · Hybrid
 • Fixed bugs and made improvements to SkyDataSentry (SDS) under the FAA’s ERAM program.
-• Increased speed of SDS queries by 30% through multiprocessing and threading. 
-• Added several UI/UX improvements to SDS making it 65% more user friendly.
+• Increased speed of SDS queries by 30% through multiprocessing and threading.
+• Added several UI/UX updates to SDS to improve overall user experience.
 • Tackled numerous hardware issues and performed countless upgrades to hundreds of SDS servers.
 = SDS (SkyDataSentry) provides critical data integration and management to enhance air traffic operations. SDS ensures the secure and efficient transmission of real-time data across the National Airspace System, supporting decision-making for air traffic controllers and enabling more precise air traffic management.
 = ERAM (En-Route Automation Modernization) is the heart of the Next Generation Air Transportation System and the pulse of the National Airspace System helping to advance our transition from a ground-based system of air traffic control to a satellite-based system of air traffic management.
@@ -136,6 +142,7 @@ Minor: Data Science | Graduation: Spring 2021
 • Written 10,000+ lines of Java, Python, R, C, C#, SQL, Swift, JavaScript, HTML, and CSS
 • 5+ years of experience in AI/ML, Analytics, .NET, PowerShell, Azure, Git, and 3D Printing
 • Proficient in Networking, Linux, Virtualization, Server Administration, Hardware Troubleshooting
+• Expertise in Web Hosting, DevOps Automation, Cloud Integration, and Cyber Security
 
 = AWARDS =
 
@@ -143,3 +150,10 @@ Minor: Data Science | Graduation: Spring 2021
 • Outstanding Student: Computer Science Department; CofC – Spring 2021
 • Member of Upsilon Pi Epsilon: Computer Science Honor Society; CofC – Spring 2021
 • Member of Winning Team for Division Two at ICPC: Southeast North America Regionals; CofC – Fall 2019
+
+= ACTIVITIES =
+
+• Mentor CS students at CofC (Fall 2018–Present), assisting with hackathons, events, and academic growth.
+• Mentor Future Link students (Fall 2023–Present), guiding skill-building and career growth in SWE and AI/ML.
+• Built a dynamic Q&A app with Streamlit and Google Gemini, leveraging Generative AI for interactive exploration.
+• Regularly compete in programming competitions, showcasing problem-solving, algorithmic thinking, and efficiency.
