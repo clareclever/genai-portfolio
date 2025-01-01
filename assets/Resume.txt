@@ -1,5 +1,6 @@
 Name: Clare Clever
 Gender: Male
+Birthday: April 14th, 1999.
 Pronouns: He/Him/His
 Location: Charleston, SC
 Phone Number: (205) 420-9171
