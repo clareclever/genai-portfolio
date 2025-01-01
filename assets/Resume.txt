@@ -14,11 +14,11 @@ Dates: Apr 2024 to Present
 Type: Full-time
 Location: Washington DC-Baltimore Area · Remote
 • Orchestrated logistics operations to optimize support for the FAA’s E-IDS program.
-• Created hardware breakdown structure to support provisioning through top-down system analysis.
+• Created hardware breakdown structure to support provisioning through top-down system evaluation.
 • Compiled tools and test equipment list to support repairs and provisioning requirements.
 • Prepared logistics management information to support materiel operations with design data.
 • Conducted repair level and spares analysis to optimize inventory and maintenance processes.
-• Maintained technology refresh plan to manage system upgrades and obsolescence.
+• Managed technology refresh plan to address system upgrades and obsolescence.
 • Generated warranty reports to track failures, assess provisions, and document coverage schedules.
 • Assisted in the development and planning of the help desk support system.
 • Supported inventory tracking and assigned components as LRUs.
