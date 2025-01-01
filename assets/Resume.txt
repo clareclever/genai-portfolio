@@ -15,15 +15,14 @@ Type: Full-time
 Location: Washington DC-Baltimore Area · Remote
 • Orchestrated logistics operations to optimize support for the FAA’s E-IDS program.
 • Created hardware breakdown structure to support provisioning through top-down system evaluation.
-• Compiled tools and test equipment list to support repairs and provisioning requirements.
-• Prepared logistics management information to support materiel operations with design data.
-• Conducted repair level and spares analysis to optimize inventory and maintenance processes.
 • Managed technology refresh plan to address system upgrades and obsolescence.
-• Generated warranty reports to track failures, assess provisions, and document coverage schedules.
-• Assisted in the development and planning of the help desk support system.
-• Supported inventory tracking and assigned components as LRUs.
 • Planned setup procedures and developed agenda for the Provisioning Conference.
-
+• Conducted repair level and spares analysis to refine inventory and maintenance processes.
+• Supported inventory tracking and assigned components as LRUs.
+• Prepared logistics management information to support materiel operations with design data.
+• Generated warranty reports to track failures, assess provisions, and document coverage schedules.
+• Compiled tools and test equipment list to support repairs and provisioning requirements.
+• Assisted in the development and planning of the help desk support system.
 = E-IDS (Enterprise Information Display System) is part of the FAA's NextGen initiative, modernizing information management by consolidating real-time data to enhance situational awareness and decision-making for air traffic controllers.
 
 Title: Enterprise Security Integration Engineer (II)
@@ -33,15 +32,15 @@ Type: Full-time
 Location: Boston, Massachusetts, United States · On-site
 • Optimized AI/ML algorithms to detect and neutralize potential data exfiltration threats for Amazon.
 • Designed and deployed automated self-service checkpoints to enhance security in AWS data centers.
-• Assisted network engineering efforts to integrate critical infrastructure into the AWS cloud.
-• Tested and validated security equipment to mitigate vulnerabilities in critical data center assets.
 • Led data collection for ML model training, boosting detection & security.
-• Automated thorough and efficient checks of people and goods with cutting-edge tech.
-• Collaborated with teams to evaluate & mitigate vulnerabilities in critical assets.
+• Automated thorough and efficient checks of people and goods with cutting-edge technology.
+• Tested and validated security equipment to mitigate vulnerabilities in critical data center assets.
+• Collaborated with teams to evaluate & mitigate vulnerabilities in critical areas.
 • Enhanced security operations, allowing users to pass through the system in under 50 seconds.
-• Improved employee experience with an inclusive and respectful screening environment.
+• Assisted network engineering efforts to integrate critical infrastructure into the AWS cloud.
 • Implemented Cat6 cabling, terminated connections, & planned equipment placement.
 • Managed equipment assembly, materials, & cable marking for efficient execution.
+• Improved employee experience with an inclusive and respectful screening environment.
 • Contributed to frictionless and efficient security processes for employees and personnel.
 Skills: Networking · Computer Hardware Troubleshooting · Artificial Intelligence (AI) · Machine Learning · DevSecOps · Agile Methodologies · Cybersecurity · Automation
 
@@ -50,14 +49,15 @@ Company: Leidos
 Dates: Mar 2023 to Oct 2023 · 8 mos
 Type: Full-time
 Location: Washington DC-Baltimore Area · Remote
-• Implemented various security enhancements for all SDS servers.
-• Enhanced SDS documentation allowing users to better utilize the application.
-• Collaborated across teams to plan infrastructure upgrades to improve system performance and reliability.
-• Designed and implemented automation scripts for routine tasks, increasing operational efficiency.
-• Troubleshooted and resolved hundreds of software/hardware issues quickly and efficiently.
-• Implemented critical security measures to harden infrastructure.
-• Helped with transition to virtual machines, increasing efficiency, scalability, and saving costs.
 • Monitored and maintained SkyDataSentry (SDS) to ensure optimal performance and uptime.
+• Facilitated the transition to virtual machines, enhancing performance and scalability while reducing costs.
+• Planned and executed infrastructure upgrades to improve SDS reliability and performance.
+• Implemented critical security measures to harden software infrastructure and guarantee compliance.
+• Developed automation scripts to streamline routine SDS tasks and improve operational efficiency.
+• Implemented various security enhancements to all SDS servers.
+• Resolved complex software issues to ensure minimal downtime and high system availability.
+• Troubleshooted and resolved hundreds of support tickets quickly and efficiently.
+• Enhanced SDS documentation allowing users to better utilize the application.
 • Provided technical support to employees, customers and users on a wide range of topics.
 Skills: Linux · Hardware Architecture · Networking · Computer Hardware Troubleshooting · Server Administration · Virtualization · Databases · Agile Methodologies · Cybersecurity
 
@@ -66,9 +66,9 @@ Company: Leidos
 Dates: Jun 2021 to Mar 2023 · 1 yr 10 mos
 Type: Full-time
 Location: Washington DC-Baltimore Area · Hybrid
-• Fixed bugs and made improvements to SkyDataSentry (SDS) under the FAA’s ERAM program.
-• Increased speed of SDS queries by 30% through multiprocessing and threading.
-• Added several UI/UX updates to SDS to improve overall user experience.
+• Fixed bugs and applied stability improvements to SkyDataSentry (SDS) under the FAA’s ERAM program.
+• Improved query speed by 30% using multiprocessing and threading, boosting performance and responsiveness.
+• Implemented UI/UX enhancements to SDS, optimizing interface design, navigation, functionality, and efficiency.
 • Tackled numerous hardware issues and performed countless upgrades to hundreds of SDS servers.
 = SDS (SkyDataSentry) provides critical data integration and management to enhance air traffic operations. SDS ensures the secure and efficient transmission of real-time data across the National Airspace System, supporting decision-making for air traffic controllers and enabling more precise air traffic management.
 = ERAM (En-Route Automation Modernization) is the heart of the Next Generation Air Transportation System and the pulse of the National Airspace System helping to advance our transition from a ground-based system of air traffic control to a satellite-based system of air traffic management.
@@ -112,10 +112,10 @@ Type: Part-time
 Dates: Dec 2018 to May 2020 · 1 yr 6 mos
 Location: Charleston, South Carolina · Remote
 • Helped modernize a Procurement Development Application for the Florida Department of Transportation.
-• Implemented Blazor/ASP.NET Core client project management tool with Azure DB integration.
+• Developed a Blazor/ASP.NET Core client project management tool with Azure DB integration.
+• Automated the product registration page for Greenworks using Zendesk Sunshine.
 • Trained in mobile app development using Xamarin.Forms.
 • Received training in robotic process automation using UiPath.
-• Automated product registration page for Greenworks using Zendesk Sunshine.
 Skills: C# · Software Development · Web Analytics
 
 Title: Cyber Security Analyst
