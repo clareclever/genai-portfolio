@@ -31,11 +31,11 @@ Company: Leidos
 Dates: Oct 2023 to Apr 2024 · 7 mos
 Type: Full-time
 Location: Boston, Massachusetts, United States · On-site
-• Rigorously tested & validated security equipment for optimal protection.
-• Developed and deployed scalable, automated self-service checkpoints for secure data centers.
+• Optimized AI/ML algorithms to detect and neutralize potential data exfiltration threats for Amazon.
+• Designed and deployed automated self-service checkpoints to enhance security in AWS data centers.
+• Assisted network engineering efforts to integrate critical infrastructure into the AWS cloud.
+• Tested and validated security equipment to mitigate vulnerabilities in critical data center assets.
 • Led data collection for ML model training, boosting detection & security.
-• Implemented AI/ML algorithms to detect and neutralize insider threats.
-• Guided network engineering for seamless integration into critical infrastructure.
 • Automated thorough and efficient checks of people and goods with cutting-edge tech.
 • Collaborated with teams to evaluate & mitigate vulnerabilities in critical assets.
 • Enhanced security operations, allowing users to pass through the system in under 50 seconds.
