@@ -45,35 +45,28 @@ Location: Boston, Massachusetts, United States · On-site
 • Contributed to frictionless and efficient security processes for employees and personnel.
 Skills: Networking · Computer Hardware Troubleshooting · Artificial Intelligence (AI) · Machine Learning · DevSecOps · Agile Methodologies · Cybersecurity · Automation
 
-Title: Air Traffic Infrastructure Engineer (I & II)
+Title: Air Traffic Software Engineer (I & II)
 Company: Leidos
-Dates: Mar 2023 to Oct 2023 · 8 mos
-Type: Full-time
-Location: Washington DC-Baltimore Area · Remote
-• Monitored and maintained SkyDataSentry (SDS) to ensure optimal performance and uptime.
-• Facilitated the transition to virtual machines, enhancing performance and scalability while reducing costs.
-• Planned and executed infrastructure upgrades to improve SDS reliability and performance.
-• Implemented critical security measures to harden software infrastructure and guarantee compliance.
-• Developed automation scripts to streamline routine SDS tasks and improve operational efficiency.
-• Implemented various security enhancements to all SDS servers.
-• Resolved complex software issues to ensure minimal downtime and high system availability.
-• Troubleshooted and resolved hundreds of support tickets quickly and efficiently.
-• Enhanced SDS documentation allowing users to better utilize the application.
-• Provided technical support to employees, customers and users on a wide range of topics.
-Skills: Linux · Hardware Architecture · Networking · Computer Hardware Troubleshooting · Server Administration · Virtualization · Databases · Agile Methodologies · Cybersecurity
-
-Title: Air Traffic Software Engineer (I)
-Company: Leidos
-Dates: Jun 2021 to Mar 2023 · 1 yr 10 mos
+Dates: Jun 2021 to Oct 2023 · 2 yrs 5 mos
 Type: Full-time
 Location: Washington DC-Baltimore Area · Hybrid
 • Fixed bugs and applied stability improvements to SkyDataSentry (SDS) under the FAA's ERAM program.
-• Improved query speed by 30% using multiprocessing and threading, boosting performance and responsiveness.
-• Implemented UI/UX enhancements to SDS, optimizing interface design, navigation, functionality, and efficiency.
+• Improved query speed by 30% using multiprocessing and threading to boost system performance.
+• Implemented UI/UX enhancements, optimizing interface design, navigation, and functionality.
+• Developed automation scripts to streamline routine SDS tasks and improve operational efficiency.
+• Resolved complex software issues to ensure minimal downtime and high system availability.
+• Planned and executed infrastructure upgrades to improve SDS reliability and performance.
+• Facilitated the transition to virtual machines, enhancing performance and scalability while reducing costs.
+• Applied critical security measures to harden software infrastructure and guarantee compliance.
+• Performed various security enhancements to all SDS servers to strengthen their vulnerability resistance.
+• Monitored and maintained SDS to ensure optimal performance and uptime.
 • Tackled numerous hardware issues and performed countless upgrades to hundreds of SDS servers.
+• Troubleshooted and resolved hundreds of support tickets quickly and efficiently.
+• Provided technical support to employees, customers and users on a wide range of topics.
+• Enhanced SDS documentation allowing users to better utilize the application.
 = SDS (SkyDataSentry) provides critical data integration and management to enhance air traffic operations. SDS ensures the secure and efficient transmission of real-time data across the National Airspace System, supporting decision-making for air traffic controllers and enabling more precise air traffic management.
 = ERAM (En-Route Automation Modernization) is the heart of the Next Generation Air Transportation System and the pulse of the National Airspace System helping to advance our transition from a ground-based system of air traffic control to a satellite-based system of air traffic management.
-Skills: Python · Software Development · JavaScript · HTML · Web Analytics · Agile Methodologies · Cascading Style Sheets (CSS)
+Skills: Linux · Hardware Architecture · Networking · Computer Hardware Troubleshooting · Server Administration · Virtualization · Databases · Cybersecurity · Python · JavaScript · HTML · Web Analytics · Agile Methodologies · Cascading Style Sheets (CSS)
 
 Title: Mobile Application Developer
 Company: Interloop.ai
