@@ -93,7 +93,7 @@ Dates: Aug 2020 to Aug 2020 · 1 mo
 Location: Columbia, South Carolina · Remote
 • Developed tech solution for sustainable auto parts manufacturing in 3-day team sprint.
 • Gleaned insights from Capgemini mentors during intensive tech creation program.
-= RISE is Capgemini’s new leadership program aimed at giving rising seniors an in-depth look into the field of technology consulting. This is a high-intensity, interactive, 3-day session where students will be exposed to Capgemini resources and design centers. You will be offered many opportunities to flex your critical-thinking skills against real-life problems, to gain a true understanding of how working in a global technology consulting firm can support your career path, and to meet like-minded students from across the country. Students will be grouped together and tasked with a “project” to solve which will result in a tangible product that you will then present to a panel of judges.
+= RISE is Capgemini's new leadership program aimed at giving rising seniors an in-depth look into the field of technology consulting. This is a high-intensity, interactive, 3-day session where students will be exposed to Capgemini resources and design centers. You will be offered many opportunities to flex your critical-thinking skills against real-life problems, to gain a true understanding of how working in a global technology consulting firm can support your career path, and to meet like-minded students from across the country. Students will be grouped together and tasked with a “project” to solve which will result in a tangible product that you will then present to a panel of judges.
 Skills: Software Development · Agile Methodologies
 
 Title: Air Traffic Systems Engineer
@@ -124,7 +124,7 @@ Company: Santee Cooper
 Type: Internship
 Dates: May 2019 to Aug 2019 · 4 mos
 Location: Moncks Corner, South Carolina · On-site
-• Optimized malware detection system’s logging infrastructure which led to a 15% increase in throughput.
+• Optimized malware detection system's logging infrastructure which led to a 15% increase in throughput.
 • Removed zero-hit firewall guidelines accelerating policy checking by nearly 25%.
 • Performed DLP testing on an endpoint protection database for a network discovery server.
 • Modified network servers to utilize SNMP polling to strengthen authentication and privacy encryption.
@@ -135,7 +135,7 @@ Skills: Linux · Networking · Cybersecurity
 
 = EDUCATION =
 
-Bachelor of Science – BS, Computer Science: College of Charleston
+Bachelor of Science - BS, Computer Science: College of Charleston
 Minor: Data Science | Graduation: Spring 2021
 
 = SKILLS =
@@ -147,14 +147,14 @@ Minor: Data Science | Graduation: Spring 2021
 
 = AWARDS =
 
-• Latin Honors Graduate: Cum Laude; CofC – Spring 2021
-• Outstanding Student: Computer Science Department; CofC – Spring 2021
-• Member of Upsilon Pi Epsilon: Computer Science Honor Society; CofC – Spring 2021
-• Member of Winning Team for Division Two at ICPC: Southeast North America Regionals; CofC – Fall 2019
+• Latin Honors Graduate: Cum Laude; CofC - Spring 2021
+• Outstanding Student: Computer Science Department; CofC - Spring 2021
+• Member of Upsilon Pi Epsilon: Computer Science Honor Society; CofC - Spring 2021
+• Member of Winning Team for Division Two at ICPC: Southeast North America Regionals; CofC - Fall 2019
 
 = ACTIVITIES =
 
-• Mentor CS students at CofC (Fall 2018–Present), assisting with hackathons, events, and academic growth.
-• Mentor Future Link students (Fall 2023–Present), guiding skill-building and career growth in SWE and AI/ML.
+• Mentor CS students at CofC (Fall 2018-Present), assisting with hackathons, events, and academic growth.
+• Mentor Future Link students (Fall 2023-Present), guiding skill-building and career growth in SWE and AI/ML.
 • Built a dynamic Q&A app with Streamlit and Google Gemini, leveraging Generative AI for interactive exploration.
 • Regularly compete in programming competitions, showcasing problem-solving, algorithmic thinking, and efficiency.
