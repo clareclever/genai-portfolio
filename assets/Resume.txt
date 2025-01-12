@@ -86,7 +86,7 @@ Dates: Aug 2020 to Aug 2020 · 1 mo
 Location: Columbia, South Carolina · Remote
 • Developed tech solution for sustainable auto parts manufacturing in 3-day team sprint.
 • Gleaned insights from Capgemini mentors during intensive tech creation program.
-= RISE is Capgemini's new leadership program aimed at giving rising seniors an in-depth look into the field of technology consulting. This is a high-intensity, interactive, 3-day session where students will be exposed to Capgemini resources and design centers. You will be offered many opportunities to flex your critical-thinking skills against real-life problems, to gain a true understanding of how working in a global technology consulting firm can support your career path, and to meet like-minded students from across the country. Students will be grouped together and tasked with a “project” to solve which will result in a tangible product that you will then present to a panel of judges.
+= RISE is Capgemini's leadership program for rising seniors, offering a dynamic 3-day immersion into technology consulting. Participants tackle real-world challenges, collaborate on projects, and present solutions to industry experts, while gaining valuable insights into consulting careers and networking with peers nationwide.
 Skills: Agile Methodologies
 
 Title: Air Traffic Systems Engineer
