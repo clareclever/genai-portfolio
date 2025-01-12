@@ -14,7 +14,7 @@ Company: Leidos
 Dates: Apr 2024 to Present
 Type: Full-time
 Location: Washington DC-Baltimore Area · Remote
-• Orchestrated logistics operations to optimize support for the FAA’s E-IDS program.
+• Orchestrated logistics operations to optimize support for the FAA's E-IDS program.
 • Created hardware breakdown structure to support provisioning through top-down system evaluation.
 • Managed technology refresh plan to address system upgrades and obsolescence.
 • Planned setup procedures and developed agenda for the Provisioning Conference.
@@ -67,7 +67,7 @@ Company: Leidos
 Dates: Jun 2021 to Mar 2023 · 1 yr 10 mos
 Type: Full-time
 Location: Washington DC-Baltimore Area · Hybrid
-• Fixed bugs and applied stability improvements to SkyDataSentry (SDS) under the FAA’s ERAM program.
+• Fixed bugs and applied stability improvements to SkyDataSentry (SDS) under the FAA's ERAM program.
 • Improved query speed by 30% using multiprocessing and threading, boosting performance and responsiveness.
 • Implemented UI/UX enhancements to SDS, optimizing interface design, navigation, functionality, and efficiency.
 • Tackled numerous hardware issues and performed countless upgrades to hundreds of SDS servers.
