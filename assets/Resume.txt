@@ -31,6 +31,7 @@ Company: Leidos
 Dates: Oct 2023 to Apr 2024 · 7 mos
 Type: Full-time
 Location: Boston, Massachusetts, United States · On-site
+• Engaged with a specialized Tiger Team to fortify AWS physical security and protect vital systems.
 • Optimized AI/ML algorithms to detect and neutralize potential data exfiltration threats for Amazon.
 • Designed and deployed automated self-service checkpoints to enhance security in AWS data centers.
 • Led data collection for ML model training, boosting detection & security.
