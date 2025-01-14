@@ -16,7 +16,7 @@ Type: Full-time
 Location: Washington DC-Baltimore Area · Remote
 • Orchestrated logistics operations to optimize support for the FAA's E-IDS program.
 • Created hardware breakdown structure to support provisioning through top-down system evaluation.
-• Managed technology refresh plan to address system upgrades and obsolescence.
+• Facilitated technology refresh plan to address system upgrades and obsolescence.
 • Planned setup procedures and developed agenda for the Provisioning Conference.
 • Conducted repair level and spares analysis to refine inventory and maintenance processes.
 • Supported inventory tracking and assigned components as LRUs.
