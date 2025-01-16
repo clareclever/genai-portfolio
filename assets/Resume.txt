@@ -76,7 +76,7 @@ Dates: Feb 2021 to May 2021 · 4 mos
 Location: Charleston, South Carolina · Hybrid
 • Built Angular/Bootstrap "sidekick" application to support Palmetto EV scooter operations.
 • Optimized application performance using in-memory database, boosting speed and efficiency.
-• Utilized Scrum & Agile for efficient development & client satisfaction.
+• Leveraged Scrum and Agile methodologies to optimize development and enhance client satisfaction.
 = A sidekick is a helper app that runs alongside desktop software for easy access to crucial information.
 Skills: Databases · Agile Methodologies
 
