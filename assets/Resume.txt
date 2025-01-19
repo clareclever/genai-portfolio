@@ -52,16 +52,15 @@ Dates: Jun 2021 to Oct 2023 · 2 yrs 5 mos
 Type: Full-time
 Location: Washington DC-Baltimore Area · Hybrid
 • Fixed bugs and applied stability improvements to SkyDataSentry (SDS) under the FAA's ERAM program.
-• Improved query speed by 30% using multiprocessing and threading to boost system performance.
-• Implemented UI/UX enhancements, optimizing interface design, navigation, and functionality.
+• Improved query speed by 30% using multiprocessing and threading to boost efficiency and responsiveness.
+• Implemented UI/UX enhancements to SDS, optimizing design, navigation, functionality, and accessibility.
 • Developed automation scripts to streamline routine SDS tasks and improve operational efficiency.
 • Resolved complex software issues to ensure minimal downtime and high system availability.
-• Planned and executed infrastructure upgrades to improve SDS reliability and performance.
 • Facilitated the transition to virtual machines, enhancing performance and scalability while reducing costs.
 • Applied critical security measures to harden software infrastructure and guarantee compliance.
 • Performed various security enhancements to all SDS servers to strengthen their vulnerability resistance.
 • Monitored and maintained SDS to ensure optimal performance and uptime.
-• Tackled numerous hardware issues and performed countless upgrades to hundreds of SDS servers.
+• Repaired 150+ hardware issues and upgraded 300+ SDS servers to enhance performance and reliability.
 • Troubleshooted and resolved hundreds of support tickets quickly and efficiently.
 • Provided technical support to employees, customers and users on a wide range of topics.
 • Enhanced SDS documentation allowing users to better utilize the application.
