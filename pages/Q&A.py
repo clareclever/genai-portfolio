@@ -12,7 +12,6 @@ st.set_page_config(page_title="Q&A", layout="wide")
 # Predefined questions for the user to select from
 FIRST_NAME = "Clare"
 PREDEFINED_QUESTIONS = [
-    f"👩‍💻 What is {FIRST_NAME}'s current role?",
     f"💼 What are {FIRST_NAME}'s top skills?",
     f"💪 What are {FIRST_NAME}'s strengths?",
     f"🎯 What are {FIRST_NAME}'s key accomplishments?",
