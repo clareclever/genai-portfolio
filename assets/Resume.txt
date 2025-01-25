@@ -105,7 +105,7 @@ Company: Computer Aid, Inc.
 Type: Part-time
 Dates: Dec 2018 to May 2020 · 1 yr 6 mos
 Location: Charleston, South Carolina · Remote
-• Helped modernize a Procurement Development Application for the Florida Department of Transportation.
+• Modernized a Procurement Development Application for the Florida Department of Transportation.
 • Developed a Blazor/ASP.NET Core client project management tool with Azure DB integration.
 • Automated the product registration page for Greenworks using Zendesk Sunshine.
 • Trained in mobile app development using Xamarin.Forms.
