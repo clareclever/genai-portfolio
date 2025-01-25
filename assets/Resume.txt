@@ -14,7 +14,7 @@ Company: Leidos
 Dates: Apr 2024 to Present
 Type: Full-time
 Location: Washington DC-Baltimore Area · Remote
-• Orchestrated logistics operations to optimize support for the FAA's E-IDS program.
+• Orchestrated logistics operations to optimize support for the FAA's $292M E-IDS program.
 • Created hardware breakdown structure to support provisioning through top-down system evaluation.
 • Facilitated technology refresh plan to address system upgrades and obsolescence.
 • Planned setup procedures and developed agenda for the Provisioning Conference.
