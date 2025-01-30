@@ -11,7 +11,7 @@ LinkedIn Profile: https://www.linkedin.com/in/clareclever
 
 Title: Air Traffic Logistics Engineer (II)
 Company: Leidos
-Dates: Apr 2024 to Present
+Dates: Apr 2024 to Jan 2025 · 10 mos
 Type: Full-time
 Location: Washington DC-Baltimore Area · Remote
 • Orchestrated logistics operations to optimize support for the FAA's $292M E-IDS program.
@@ -28,7 +28,7 @@ Location: Washington DC-Baltimore Area · Remote
 
 Title: Enterprise Security Integration Engineer (II)
 Company: Leidos
-Dates: Oct 2023 to Apr 2024 · 7 mos
+Dates: Sep 2023 to Apr 2024 · 8 mos
 Type: Full-time
 Location: Boston, Massachusetts, United States · On-site
 • Engaged with a specialized Tiger Team to fortify AWS physical security and protect vital systems.
@@ -48,7 +48,7 @@ Skills: Networking · Computer Hardware Troubleshooting · Artificial Intelligen
 
 Title: Air Traffic Software Engineer (I & II)
 Company: Leidos
-Dates: Jun 2021 to Oct 2023 · 2 yrs 5 mos
+Dates: Jun 2021 to Sep 2023 · 2 yrs 4 mos
 Type: Full-time
 Location: Washington DC-Baltimore Area · Hybrid
 • Fixed bugs and applied stability improvements to SkyDataSentry (SDS) under the FAA's ERAM program.
