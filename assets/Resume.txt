@@ -1,3 +1,5 @@
+= DETAILS =
+
 Name: Clare Clever
 Gender: Male
 Birthday: April 14th, 1999.
@@ -8,6 +10,12 @@ Email: clare.clever@leidos.com
 LinkedIn Profile: https://www.linkedin.com/in/clareclever
 
 = EXPERIENCE =
+
+Title: Military Health Software Engineer (III)
+Company: Leidos
+Dates: Jan 2025 to Present
+Type: Full-time
+Location: Washington DC-Baltimore Area · Remote
 
 Title: Air Traffic Logistics Engineer (II)
 Company: Leidos
@@ -25,6 +33,7 @@ Location: Washington DC-Baltimore Area · Remote
 • Compiled tools and test equipment list to support repairs and provisioning requirements.
 • Assisted in the development and planning of the help desk support system.
 = E-IDS (Enterprise Information Display System) is part of the FAA's NextGen initiative, modernizing information management by consolidating real-time data to enhance situational awareness and decision-making for air traffic controllers.
+Skills: Operations Management · Warranty Administration · Inventory Management · Logistics Management · Help Desk Support · Data Analysis
 
 Title: Enterprise Security Integration Engineer (II)
 Company: Leidos
@@ -44,7 +53,7 @@ Location: Boston, Massachusetts, United States · On-site
 • Managed equipment assembly, materials, & cable marking for efficient execution.
 • Improved employee experience with an inclusive and respectful screening environment.
 • Contributed to frictionless and efficient security processes for employees and personnel.
-Skills: Networking · Computer Hardware Troubleshooting · Artificial Intelligence (AI) · Machine Learning · DevSecOps · Agile Methodologies · Cybersecurity · Automation
+Skills: Artificial Intelligence (AI) · Machine Learning · Cybersecurity · Automation · Networking · DevSecOps
 
 Title: Air Traffic Software Engineer (I & II)
 Company: Leidos
@@ -66,7 +75,7 @@ Location: Washington DC-Baltimore Area · Hybrid
 • Enhanced SDS documentation allowing users to better utilize the application.
 = SDS (SkyDataSentry) provides critical data integration and management to enhance air traffic operations. SDS ensures the secure and efficient transmission of real-time data across the National Airspace System, supporting decision-making for air traffic controllers and enabling more precise air traffic management.
 = ERAM (En-Route Automation Modernization) is the heart of the Next Generation Air Transportation System and the pulse of the National Airspace System helping to advance our transition from a ground-based system of air traffic control to a satellite-based system of air traffic management.
-Skills: Linux · Hardware Architecture · Networking · Computer Hardware Troubleshooting · Server Administration · Virtualization · Databases · Cybersecurity · Python · JavaScript · HTML · Web Analytics · Agile Methodologies · Cascading Style Sheets (CSS)
+Skills: Server Administration · Virtualization · Networking · Databases · Python · Linux
 
 Title: Mobile Application Developer
 Company: Interloop.ai
@@ -77,7 +86,7 @@ Location: Charleston, South Carolina · Hybrid
 • Optimized application performance using in-memory database, boosting speed and efficiency.
 • Leveraged Scrum and Agile methodologies to optimize development and enhance client satisfaction.
 = A sidekick is a helper app that runs alongside desktop software for easy access to crucial information.
-Skills: Databases · Agile Methodologies
+Skills: Bootstrap (Framework) · Agile Methodologies · Databases · Angular · Scrum
 
 Title: RISE Leadership Program
 Company: Capgemini
@@ -98,7 +107,7 @@ Location: Washington DC-Baltimore Area · Remote
 • Created forecasting models to accurately project future SDS database collection sizes.
 • Added raw data option to SDS IO log report page.
 = SkyDataSentry (SDS) is a browser-based software application for use in monitoring, managing, and maintaining data for air traffic management systems to enhance problem identification, data retrieval, and reporting.
-Skills: Hardware Architecture · Databases
+Skills: Hardware Architecture · Forecasting · Databases · Reporting
 
 Title: Full Stack Developer
 Company: Computer Aid, Inc.
@@ -110,7 +119,7 @@ Location: Charleston, South Carolina · Remote
 • Automated the product registration page for Greenworks using Zendesk Sunshine.
 • Trained in mobile app development using Xamarin.Forms.
 • Received training in robotic process automation using UiPath.
-Skills: C# · Web Analytics
+Skills: Robotic Process Automation (RPA) · Microsoft Azure · Web Analytics · ASP.NET Core · Zendesk · C#
 
 Title: Cyber Security Analyst
 Company: Santee Cooper
@@ -124,7 +133,7 @@ Location: Moncks Corner, South Carolina · On-site
 • Utilized multiple endpoint antivirus software's to heighten SIEM correlation rule checking.
 • Installed and configured a forensic analysis tool on a virtual server to scan for high-risk security vulnerabilities.
 • Conducted Nmap scan to categorize and detail all active IP addresses on the company network.
-Skills: Linux · Networking · Cybersecurity
+Skills: Cybersecurity · Infrastructure · Networking · Antivirus · Firewalls · Linux
 
 = EDUCATION =
 
