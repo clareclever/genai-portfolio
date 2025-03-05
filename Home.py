@@ -25,7 +25,7 @@ EMAIL_LINK = "mailto:boinest312@gmail.com"
 
 # GitHub link
 GITHUB_ICON_PATH = "assets/GitHub.png"
-GITHUB_LINK = "https://github.com/clareclever"
+GITHUB_LINK = "https://github.com/XXX"
 
 # Salesforce link
 SALESFORCE_ICON_PATH = "assets/Salesforce.png"
