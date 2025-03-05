@@ -11,7 +11,7 @@ def encode_image_to_base64(image_path):
         return base64.b64encode(img_file.read()).decode()
 
 # Path to the local PDF file and images
-PDF_FILE_PATH = "./assets/Resume.pdf"  # Replace with your local PDF path
+PDF_FILE_PATH = "./assets/Resume.pdf"
 HEADSHOT_PATH = "./assets/Headshot.png"
 LINKEDIN_ICON_PATH = "assets/LinkedIn.png"
 GITHUB_ICON_PATH = "assets/GitHub.png"
