@@ -21,7 +21,7 @@ LINKEDIN_LINK = "https://www.linkedin.com/in/clareclever/"
 
 # Email link
 EMAIL_ICON_PATH = "assets/Email.png"
-EMAIL_LINK = "mailto:boinest312@gmail.com"
+EMAIL_LINK = "mailto:clare.clever@leidos.com"
 
 # GitHub link
 GITHUB_ICON_PATH = "assets/GitHub.png"
