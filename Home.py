@@ -93,10 +93,15 @@ with col2:
             </a>
         </p>
         """.format(
+            # Add LinkedIn link
             linkedin_link=LINKEDIN_LINK,
             linkedin_icon=linkedin_icon_base64,
+            
+            # Add email link
             email_link=EMAIL_LINK,
             email_icon=email_icon_base64,
+            
+            # Add GitHub link
             github_link=GITHUB_LINK,
             github_icon=github_icon_base64,
         ),
