@@ -97,7 +97,7 @@ with col2:
             </a>
         </p>
         <p style="margin-bottom: 15px;">
-            <a href="{github_link}" target="_blank" style="text-decoration: none;">
+            <a href="XXX" target="_blank" style="text-decoration: none;">
                 <img src="data:image/png;base64,{github_icon}" width="30" height="30" style="vertical-align: middle; margin-right: 8px;" />
                 <span style="color: teal;">GitHub</span>
             </a>
