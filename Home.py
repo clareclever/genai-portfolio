@@ -53,7 +53,7 @@ with col2:
 
     # Display download button for the resume
     st.download_button(
-        label="📄 Download Resume",  # You can replace the emoji with text or another icon
+        label="📄 Download Resume",
         data=pdf_bytes,
         file_name="Clare's Resume.pdf",
         mime="application/pdf"
