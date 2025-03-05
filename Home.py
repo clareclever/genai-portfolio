@@ -16,11 +16,13 @@ HEADSHOT_PATH = "./assets/Headshot.png"
 LINKEDIN_ICON_PATH = "assets/LinkedIn.png"
 GITHUB_ICON_PATH = "assets/GitHub.png"
 EMAIL_ICON_PATH = "assets/Email.png"
+SALESFORCE_ICON_PATH = "assets/Salesforce.png"
 
 # Links to LinkedIn, Email, and GitHub accounts
 LINKEDIN_LINK = "https://www.linkedin.com/in/clareclever/"
 EMAIL_LINK = "mailto:boinest312@gmail.com"
 GITHUB_LINK = "https://github.com/ClareClever99"
+SALESFORCE_LINK = "https://www.salesforce.com/trailblazer/clareclever"
 
 # --- MAIN CONTENT ---
 # Create columns for layout
@@ -69,6 +71,7 @@ with col2:
     linkedin_icon_base64 = encode_image_to_base64(LINKEDIN_ICON_PATH)
     github_icon_base64 = encode_image_to_base64(GITHUB_ICON_PATH)
     email_icon_base64 = encode_image_to_base64(EMAIL_ICON_PATH)
+    salesforce_icon_base64 = encode_image_to_base64(SALESFORCE_ICON_PATH)
 
     # Add links for LinkedIn, Email, and GitHub with icons
     st.markdown(
@@ -92,6 +95,12 @@ with col2:
                 <span style="color: teal;">GitHub</span>
             </a>
         </p>
+        <p style="margin-bottom: 15px;">
+            <a href="{salesforce_link}" target="_blank" style="text-decoration: none;">
+                <img src="data:image/png;base64,{salesforce_icon}" width="30" height="30" style="vertical-align: middle; margin-right: 8px;" />
+                <span style="color: teal;">Salesforce</span>
+            </a>
+        </p>
         """.format(
             # Add LinkedIn link
             linkedin_link=LINKEDIN_LINK,
@@ -104,6 +113,10 @@ with col2:
             # Add GitHub link
             github_link=GITHUB_LINK,
             github_icon=github_icon_base64,
+
+            # Add Salesforce link
+            salesforce_link=SALESFORCE_LINK,
+            salesforce_icon=salesforce_icon_base64
         ),
         unsafe_allow_html=True,
     )
