@@ -20,9 +20,11 @@ PREDEFINED_QUESTIONS = [
     # f"🌍 What industries or sectors has {FIRST_NAME} worked in?",
     # f"📚 What is {FIRST_NAME}'s educational background?",
     # f"🤝 How does {FIRST_NAME} collaborate with team members?",
-    f"🔧 What tools and technologies is {FIRST_NAME} proficient in?",
-    f"🔗 How can I connect with {FIRST_NAME}?",
-    f"🚀 What are {FIRST_NAME}'s career goals?"
+    # f"🔧 What tools and technologies is {FIRST_NAME} proficient in?",
+    # f"🔗 How can I connect with {FIRST_NAME}?",
+    f"📅 What is {FIRST_NAME}'s work experience?",
+    f"🚀 How does {FIRST_NAME} drive innovation?",
+    f"🌟 What makes {FIRST_NAME} stand out as a candidate?",
 ]
 
 # Model versions for both Flash and Pro variants
