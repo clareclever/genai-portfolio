@@ -69,7 +69,7 @@ with col2:  # Central column for main content
     st.radio("Select a model family:", list(MODEL_DICT.keys()), key="selected_model")
 
     # Load custom CSS for button styling
-    with open("./assets/buttonStyle.css") as f:
+    with open("./assets/styles/buttonStyle.css") as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
     # Section for predefined questions
