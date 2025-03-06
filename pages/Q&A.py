@@ -14,19 +14,19 @@ FIRST_NAME = "Clare"
 
 # Predefined questions for the user to choose from
 PREDEFINED_QUESTIONS = [
-    # f"💼 What are {FIRST_NAME}'s top skills?",
-    # f"💪 What are {FIRST_NAME}'s strengths?",
-    # f"🎯 What are {FIRST_NAME}'s key accomplishments?",
-    # f"📈 How has {FIRST_NAME} contributed to the growth of previous organizations?",
-    # f"🏆 What awards or recognitions has {FIRST_NAME} received?",
-    # f"🌍 What industries or sectors has {FIRST_NAME} worked in?",
-    # f"📚 What is {FIRST_NAME}'s educational background?",
-    # f"🤝 How does {FIRST_NAME} collaborate with team members?",
-    # f"🔧 What tools and technologies is {FIRST_NAME} proficient in?",
-    # f"🔗 How can I connect with {FIRST_NAME}?",
+    f"💼 What are {FIRST_NAME}'s top skills?",
+    f"💪 What are {FIRST_NAME}'s strengths?",
+    f"🎯 What are {FIRST_NAME}'s key accomplishments?",
+    f"📈 How has {FIRST_NAME} contributed to the growth of previous organizations?",
+    f"🏆 What awards or recognitions has {FIRST_NAME} received?",
+    f"🌍 What industries or sectors has {FIRST_NAME} worked in?",
+    f"📚 What is {FIRST_NAME}'s educational background?",
+    f"🤝 How does {FIRST_NAME} collaborate with team members?",
+    f"🔧 What tools and technologies is {FIRST_NAME} proficient in?",
+    f"🔗 How can I connect with {FIRST_NAME}?",
     f"📅 What is {FIRST_NAME}'s work experience?",
     f"🚀 How does {FIRST_NAME} drive innovation?",
-    f"🌟 What makes {FIRST_NAME} stand out as a candidate?",
+    f"🌟 What makes {FIRST_NAME} stand out as a candidate?"
 ]
 
 # Model versions for both Flash and Pro variants. Check for new models here: https://aistudio.google.com/
