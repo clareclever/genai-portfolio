@@ -76,7 +76,7 @@ with col2:  # Central column for main content
     st.subheader("Choose a preset question or input your own below!")
 
     # Load resume content from file
-    with open("./assets/Resume.txt", "r") as file:
+    with open("./assets/data/Resume.txt", "r") as file:
         resume_text = file.read()
 
     # Function to send the prompt to the generative model
