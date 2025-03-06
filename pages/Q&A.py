@@ -9,8 +9,10 @@ genai.configure(api_key=st.secrets["API_KEY"])
 # Set page configurations
 st.set_page_config(page_title="Q&A", layout="wide")
 
-# Predefined questions for the user to select from
+# Define the first name of the individual in the resume
 FIRST_NAME = "Clare"
+
+# Predefined questions for the user to choose from
 PREDEFINED_QUESTIONS = [
     # f"💼 What are {FIRST_NAME}'s top skills?",
     # f"💪 What are {FIRST_NAME}'s strengths?",
@@ -27,8 +29,7 @@ PREDEFINED_QUESTIONS = [
     f"🌟 What makes {FIRST_NAME} stand out as a candidate?",
 ]
 
-# Model versions for both Flash and Pro variants
-# Check for new models at https://aistudio.google.com/
+# Model versions for both Flash and Pro variants. Check for new models here: https://aistudio.google.com/
 GEMINI_FLASH_MODELS = [
     "gemini-2.0-flash",
     "gemini-2.0-flash-lite",
@@ -50,22 +51,20 @@ GEMINI_PRO_MODELS = [
         # "gemini-1.5-pro-002",
 ]
 
+# Dictionary mapping model names to user-friendly names
 MODEL_DICT = {
     "Gemini Flash - tasks requiring quick responses.": "Flash",
     "Gemini Pro - tasks requiring deep analysis and extended context.": "Pro"
 }
 
 # Initialize session state variables
-if "custom_input" not in st.session_state:
-    st.session_state.custom_input = ""
-if "user_question" not in st.session_state:
-    st.session_state.user_question = ""
-if "response" not in st.session_state:
-    st.session_state.response = ""
-if "button_questions" not in st.session_state:
-    st.session_state.button_questions = random.sample(PREDEFINED_QUESTIONS, 3)
-if "recent_model" not in st.session_state:
-    st.session_state.recent_model = ""
+session_vars = ["custom_input", "user_question", "response", "button_questions", "recent_model"]
+default_values = ["", "", "", random.sample(PREDEFINED_QUESTIONS, 3), ""]
+
+# Initialize session state variables if they do not exist
+for var, default in zip(session_vars, default_values):
+    if var not in st.session_state:
+        st.session_state[var] = default
 
 # Center content using columns 
 col1, col2, col3 = st.columns([1, 5.5, 1])
@@ -110,6 +109,7 @@ with col2:  # Central column for main content
     with open("./assets/Resume.txt", "r") as file:
         resume_text = file.read()
 
+    # Function to send the prompt to the generative model
     def send_prompt(input_question=None, question_type="button"):
         """Handles sending the prompt to the generative model."""
         
@@ -119,6 +119,7 @@ with col2:  # Central column for main content
         else:
             st.session_state.user_question = st.session_state.custom_input
 
+        # Generate the prompt for the model
         prompt = f"""
             As an advocate for the professional, please focus exclusively on the following resume details:
             {resume_text}
@@ -138,24 +139,30 @@ with col2:  # Central column for main content
         
         # Try each model until a successful response is obtained
         for model_name in model_list:
+            # Attempt to generate a response using the current model
             try:
+                # Generate response using the model
                 model = genai.GenerativeModel(model_name)
                 response = model.generate_content(prompt)
                 
+                # Break the loop if a successful response is obtained
                 if response:
                     st.session_state.response = response
                     st.session_state.recent_model = model_name.split("/")[-1]  # Store only model name
                     break
-
+            
+            # Handle exceptions and continue to the next model
             except Exception as e:
                 print(f"Error with model {model_name}: {e}")
         
+        # Display a warning if no response is available
         if not st.session_state.response:
             st.warning("Sorry, but it seems we've reached the chat limit for all models. Please try again later.")
 
     # Display three randomized questions as buttons in columns (centered)
     col_q1, col_q2, col_q3 = st.columns(3)
     
+    # Display the buttons for the predefined questions
     for i, col in enumerate([col_q1, col_q2, col_q3]):
         question_text = st.session_state.button_questions[i]
         col.button(question_text, on_click=send_prompt, args=(question_text,), key=f"q{i+1}_button")
@@ -166,6 +173,7 @@ with col2:  # Central column for main content
 # Display response if available (centered within col2)
 if st.session_state.user_question and st.session_state.response:
     
+    # Center content using columns
     with col2:
         st.divider()
         # Display user question
