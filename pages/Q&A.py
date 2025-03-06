@@ -36,19 +36,10 @@ GEMINI_FLASH_MODELS = [
     "gemini-2.0-flash-exp"
     "gemini-1.5-flash",
     "gemini-1.5-flash-8b"
-
-    # Old 1.5 Flash models
-        # "gemini-1.5-flash-exp-0827", 
-        # "gemini-1.5-flash-002", 
-        # "gemini-1.5-flash-8b-exp-0924"
 ]
 GEMINI_PRO_MODELS = [
     "gemini-2.0-pro-exp-02-05",
     "gemini-1.5-pro"
-
-    # Old 1.5 Pro models
-        # "gemini-1.5-pro-exp-0827",
-        # "gemini-1.5-pro-002",
 ]
 
 # Dictionary mapping model names to user-friendly names
@@ -77,30 +68,9 @@ with col2:  # Central column for main content
     # Radio button for selecting model family
     st.radio("Select a model family:", list(MODEL_DICT.keys()), key="selected_model")
 
-    # Custom CSS for button styling
-    st.markdown(
-        """
-        <style>
-            div.stButton > button:first-child {
-                font-size: 1em;
-                padding: 1em;
-                border-radius: 8px;
-                text-align: left;
-                display: block;
-                width: 95%;
-                margin: 10px 0;
-                cursor: pointer;
-                transition-duration: 0.3s;
-                height: auto;
-                min-height: 110px;
-            }
-            div.stButton > button:first-child:hover {
-                box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-            }
-        </style>
-        """,
-        unsafe_allow_html=True
-    )
+    # Load custom CSS for button styling
+    with open("./assets/buttonStyle.css") as f:
+        st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
     # Section for predefined questions
     st.subheader("Choose a preset question or input your own below!")
