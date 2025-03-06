@@ -89,7 +89,7 @@ Make it **yours** by updating these files:
 
 ### 📸 Assets
 
-- **assets/Headshot.png**: Replace with a picture of yourself.
+- **assets/images/Headshot.png**: Replace with a picture of yourself.
 - **assets/Resume.pdf**: Upload a PDF version of your resume.
 - **assets/Resume.txt**: Replace with plain text from your resume.
 

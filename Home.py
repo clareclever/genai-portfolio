@@ -13,22 +13,22 @@ def encode_image_to_base64(image_path):
 
 # Path to the local PDF file and images
 PDF_FILE_PATH = "./assets/Resume.pdf"
-HEADSHOT_PATH = "./assets/Headshot.png"
+HEADSHOT_PATH = "./assets/images/Headshot.png"
 
 # LinkedIn link
-LINKEDIN_ICON_PATH = "assets/LinkedIn.png"
+LINKEDIN_ICON_PATH = "assets/images/LinkedIn.png"
 LINKEDIN_LINK = "https://www.linkedin.com/in/clareclever/"
 
 # Email link
-EMAIL_ICON_PATH = "assets/Email.png"
+EMAIL_ICON_PATH = "assets/images/Email.png"
 EMAIL_LINK = "mailto:clare.clever@leidos.com"
 
 # GitHub link
-GITHUB_ICON_PATH = "assets/GitHub.png"
+GITHUB_ICON_PATH = "assets/images/GitHub.png"
 GITHUB_LINK = "https://github.com/clareclever"
 
 # Salesforce link
-SALESFORCE_ICON_PATH = "assets/Salesforce.png"
+SALESFORCE_ICON_PATH = "assets/images/Salesforce.png"
 SALESFORCE_LINK = "https://www.salesforce.com/trailblazer/clareclever"
 
 # --- MAIN CONTENT ---
