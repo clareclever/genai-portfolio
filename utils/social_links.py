@@ -47,8 +47,8 @@ def render_social_links():
     """, unsafe_allow_html=True)
     
     for link in get_social_links():
-        cols = st.columns([1, 8])
-        with cols[0]:
+        icon_col, link_col = st.columns([1, 8])
+        with icon_col:
             st.image(f"assets/images/{link.icon_path}", width=30)
-        with cols[1]:
+        with link_col:
             st.markdown(f'<a href="{link.url}" target="_blank" style="text-decoration: none; color: #0066cc; margin-left: -15px;">{link.name}</a>', unsafe_allow_html=True)
