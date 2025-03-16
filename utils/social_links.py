@@ -68,19 +68,19 @@ def render_social_links():
     Renders social links in a clean, consistent format.
     
     This function:
-    1. Creates a single HTML string containing all social links
-    2. Each link includes an icon and text in a horizontal layout
-    3. Applies consistent spacing and styling to all elements
+    1. Displays a "Let's Connect!" header
+    2. Creates a two-column layout for each social link:
+       - Left column (10%): Social media icon
+       - Right column (90%): Clickable link text
     """
     # Display the section header
     st.markdown("### Let's Connect!")
     
-    # Build HTML string for all social links
-    links_html = ""
+    # Iterate through social links and render each with icon and text
     for link in get_social_links():
-        links_html += f'<a href="{link.url}" target="_blank" style="text-decoration: none; margin-right: 20px;">'
-        links_html += f'<img src="assets/images/{link.icon_path}" style="width: 30px; vertical-align: middle; margin-right: 5px;">'
-        links_html += f'<span style="color: #0066cc;">{link.name}</span></a>'
-    
-    # Render all links in a single markdown element
-    st.markdown(links_html, unsafe_allow_html=True)
+        # Create a two-column layout with 0.1:0.9 ratio
+        icon_col, link_col = st.columns([0.1, 0.9])
+        with icon_col:
+            st.image(f"assets/images/{link.icon_path}", width=30)
+        with link_col:
+            st.markdown(f"[{link.name}]({link.url})")
