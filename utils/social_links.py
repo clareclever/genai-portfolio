@@ -37,9 +37,23 @@ def render_social_links():
     """Renders social links in a clean, consistent format."""
     st.markdown("### Let's Connect!")
     
+    # Add custom CSS to reduce spacing
+    st.markdown("""
+        <style>
+        .social-link-row {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 5px;
+        }
+        </style>
+    """, unsafe_allow_html=True)
+    
     for link in get_social_links():
-        icon_col, link_text_col = st.columns([1, 4])
-        with icon_col:
-            st.image(f"assets/images/{link.icon_path}", width=30)
-        with link_text_col:
-            st.markdown(f'<a href="{link.url}" target="_blank" style="text-decoration: none; color: #0066cc;">{link.name}</a>', unsafe_allow_html=True)
+        # Use custom HTML/CSS for better control of spacing
+        st.markdown(f"""
+            <div class="social-link-row">
+                <img src="assets/images/{link.icon_path}" style="width: 30px;">
+                <a href="{link.url}" target="_blank" style="text-decoration: none; color: #0066cc;">{link.name}</a>
+            </div>
+        """, unsafe_allow_html=True)
