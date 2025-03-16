@@ -37,16 +37,10 @@ def render_social_links():
     """Renders social links in a clean, consistent format."""
     st.markdown("### Let's Connect!")
     
-    # Create all columns at once - two columns per link (icon and text)
-    links = get_social_links()
-    cols = st.columns(len(links) * 2)
+    links_html = ""
+    for link in get_social_links():
+        links_html += f'<a href="{link.url}" target="_blank" style="text-decoration: none; margin-right: 20px;">'
+        links_html += f'<img src="{link.icon_path}" style="width: 30px; vertical-align: middle; margin-right: 5px;">'
+        links_html += f'<span style="color: #0066cc;">{link.name}</span></a>'
     
-    # Fill the columns with content
-    for idx, link in enumerate(links):
-        icon_col = cols[idx * 2]
-        link_col = cols[idx * 2 + 1]
-        
-        with icon_col:
-            st.image(link.icon_path, width=30)
-        with link_col:
-            st.markdown(f"[{link.name}]({link.url})") 
+    st.markdown(links_html, unsafe_allow_html=True)
