@@ -4,10 +4,12 @@ This module provides functionality to define, store, and display social media li
 with their associated icons in a consistent and visually appealing format.
 """
 
+# Import required libraries
 import streamlit as st
 from dataclasses import dataclass
 from typing import List
 
+# Define the data structure for social media links
 @dataclass
 class SocialLink:
     """
@@ -33,22 +35,27 @@ def get_social_links() -> List[SocialLink]:
     Returns:
         List[SocialLink]: List of configured social media links
     """
+    # Define all social media links with their respective configurations
     return [
+        # Professional network profile
         SocialLink(
             name="LinkedIn",
             url=st.secrets["linkedin_url"],
             icon_path="LinkedIn.png"
         ),
+        # Contact email link
         SocialLink(
             name="Email",
             url=st.secrets["email"],
             icon_path="Email.png"
         ),
+        # Code repository profile
         SocialLink(
             name="GitHub",
             url=st.secrets["github_url"],
             icon_path="GitHub.png"
         ),
+        # Professional platform profile
         SocialLink(
             name="Salesforce",
             url=st.secrets["salesforce_url"],
@@ -68,6 +75,7 @@ def render_social_links():
        - Right column: Clickable link text
     4. Applies negative margins to reduce spacing between elements
     """
+    # Display the section header
     st.markdown("### Let's Connect!")
     
     # Add custom CSS to reduce spacing between icon and text
@@ -81,12 +89,15 @@ def render_social_links():
     
     # Iterate through social links and render each with icon and text
     for link in get_social_links():
+        # Create a two-column layout for each social link
         icon_col, link_col = st.columns([1, 6])  # Create two columns with 1:6 ratio
+        
+        # Left column: Display the social media icon
         with icon_col:
-            # Display the social media icon
             st.image(f"assets/images/{link.icon_path}", width=30)
+        
+        # Right column: Display the link with custom styling
         with link_col:
-            # Display the link with custom styling
             st.markdown(
                 f'<a href="{link.url}" target="_blank" style="text-decoration: none; color: #0066cc; margin-left: -20px;">{link.name}</a>',
                 unsafe_allow_html=True
