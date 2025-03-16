@@ -14,22 +14,22 @@ def get_social_links() -> List[SocialLink]:
         SocialLink(
             name="LinkedIn",
             url=st.secrets["linkedin_url"],
-            icon_path="./assets/images/LinkedIn.png"
+            icon_path="LinkedIn.png"
         ),
         SocialLink(
             name="Email",
             url=st.secrets["email"],
-            icon_path="./assets/images/Email.png"
+            icon_path="Email.png"
         ),
         SocialLink(
             name="GitHub",
             url=st.secrets["github_url"],
-            icon_path="./assets/images/GitHub.png"
+            icon_path="GitHub.png"
         ),
         SocialLink(
             name="Salesforce",
             url=st.secrets["salesforce_url"],
-            icon_path="./assets/images/Salesforce.png"
+            icon_path="Salesforce.png"
         )
     ]
 
@@ -37,12 +37,9 @@ def render_social_links():
     """Renders social links in a clean, consistent format."""
     st.markdown("### Let's Connect!")
     
-    links_html = ""
     for link in get_social_links():
-        links_html += f'<div style="margin-bottom: 15px;">'
-        links_html += f'<a href="{link.url}" target="_blank" style="text-decoration: none;">'
-        links_html += f'<img src="{link.icon_path}" style="width: 30px; height: 30px; vertical-align: middle; margin-right: 10px; object-fit: contain;">'
-        links_html += f'<span style="color: #0066cc;">{link.name}</span></a>'
-        links_html += '</div>'
-    
-    st.markdown(links_html, unsafe_allow_html=True)
+        icon_col, link_text_col = st.columns([1, 4])
+        with icon_col:
+            st.image(f"assets/images/{link.icon_path}", width=30)
+        with link_text_col:
+            st.markdown(f'<a href="{link.url}" target="_blank" style="text-decoration: none; color: #0066cc;">{link.name}</a>', unsafe_allow_html=True)
