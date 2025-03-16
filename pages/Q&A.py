@@ -31,9 +31,10 @@ PREDEFINED_QUESTIONS = [
 
 # Model versions for both Flash and Pro variants. Check for new models here: https://aistudio.google.com/
 GEMINI_FLASH_MODELS = [
-    "gemini-2.0-flash",
-    "gemini-2.0-flash-lite",
-    "gemini-2.0-flash-exp"
+    "gemma-2-27b-it"
+    # "gemini-2.0-flash",
+    # "gemini-2.0-flash-lite",
+    # "gemini-2.0-flash-exp"
 ]
 GEMINI_PRO_MODELS = [
     "gemini-2.0-pro-exp-02-05"
