@@ -94,20 +94,32 @@ def render_social_links():
         }
         .text-link {
             text-decoration: none !important;
-            color: #0066cc;
-            margin-left: -20px;
+            color: #20B2AA !important;
+            margin-left: -18px;
+            transition: color 0.3s ease;
+        }
+        .text-link:hover {
+            color: #2ec4bc !important;
+        }
+        .icon-link {
+            display: inline-block;
+            margin-right: -2px;
         }
         .icon-link img {
             width: 30px;
             height: auto;
             cursor: pointer;
+            transition: opacity 0.3s ease;
+        }
+        .icon-link:hover img {
+            opacity: 0.8;
         }
         </style>
     """, unsafe_allow_html=True)
     
     # Iterate through social links and render each with icon and text
     for link in get_social_links():
-        icon_column, text_column = st.columns([1, 6])
+        icon_column, text_column = st.columns([0.55, 6])  # Slightly reduced icon column width
         
         # Display icon in first column
         with icon_column:
