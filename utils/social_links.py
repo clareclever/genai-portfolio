@@ -8,6 +8,7 @@ class SocialLink:
     url: str
     icon_path: str
 
+@st.cache_data
 def get_social_links() -> List[SocialLink]:
     """Returns a list of social links with their configurations."""
     return [
