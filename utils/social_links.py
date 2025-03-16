@@ -41,14 +41,14 @@ def render_social_links():
     st.markdown("""
         <style>
         .stImage > img {
-            margin-right: -20px;  /* Pull the text closer to the image */
+            margin-right: -25px;  /* Increase negative margin to pull text closer */
         }
         </style>
     """, unsafe_allow_html=True)
     
     for link in get_social_links():
-        icon_col, link_col = st.columns([1, 8])
+        icon_col, link_col = st.columns([1, 6])  # Reduce second column width to bring elements closer
         with icon_col:
             st.image(f"assets/images/{link.icon_path}", width=30)
         with link_col:
-            st.markdown(f'<a href="{link.url}" target="_blank" style="text-decoration: none; color: #0066cc; margin-left: -15px;">{link.name}</a>', unsafe_allow_html=True)
+            st.markdown(f'<a href="{link.url}" target="_blank" style="text-decoration: none; color: #0066cc; margin-left: -20px;">{link.name}</a>', unsafe_allow_html=True)
