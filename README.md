@@ -6,7 +6,7 @@ Welcome to this **lightweight, interactive portfolio template** that showcases y
 
 ## 🚀 Fork the Repository
 
-1. Go to the repository on GitHub: `https://github.com/jannekemorin/genai-portfolio`.
+1. Go to the repository on GitHub: `https://github.com/clareclever/genai-portfolio`.
 2. Click the **Fork** button in the top-right corner of the page to create a copy of the repository under your GitHub account.
 3. Open your terminal and navigate to the folder where you'd like to download your forked repository.
 4. Run the following command to clone your forked repository (replace `<your-username>` with your GitHub username):
