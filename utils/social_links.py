@@ -39,8 +39,10 @@ def render_social_links():
     
     links_html = ""
     for link in get_social_links():
-        links_html += f'<a href="{link.url}" target="_blank" style="text-decoration: none; margin-right: 20px;">'
-        links_html += f'<img src="{link.icon_path}" style="width: 30px; vertical-align: middle; margin-right: 5px;">'
+        links_html += f'<div style="margin-bottom: 15px;">'
+        links_html += f'<a href="{link.url}" target="_blank" style="text-decoration: none;">'
+        links_html += f'<img src="{link.icon_path}" style="width: 30px; vertical-align: middle; margin-right: 10px;">'
         links_html += f'<span style="color: #0066cc;">{link.name}</span></a>'
+        links_html += '</div>'
     
     st.markdown(links_html, unsafe_allow_html=True)
