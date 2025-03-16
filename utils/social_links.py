@@ -71,34 +71,43 @@ def render_social_links():
     1. Displays a "Let's Connect!" header
     2. Applies custom CSS to control spacing between icons and text
     3. Creates a two-column layout for each social link:
-       - Left column: Social media icon
+       - Left column: Social media icon (clickable)
        - Right column: Clickable link text
     4. Applies negative margins to reduce spacing between elements
     """
     # Display the section header
     st.markdown("### Let's Connect!")
     
-    # Add custom CSS to reduce spacing between icon and text
+    # Add custom CSS to reduce spacing between icon and text and style links
     st.markdown("""
         <style>
         .stImage > img {
             margin-right: -25px;  /* Increase negative margin to pull text closer */
+        }
+        .social-link {
+            text-decoration: none;
+            color: #0066cc;
+            margin-left: -20px;
         }
         </style>
     """, unsafe_allow_html=True)
     
     # Iterate through social links and render each with icon and text
     for link in get_social_links():
-        # Create a two-column layout for each social link
-        icon_col, link_col = st.columns([1, 6])  # Create two columns with 1:6 ratio
+        # Create columns for the link layout
+        cols = st.columns([1, 6])  # Create two columns with 1:6 ratio
         
-        # Left column: Display the social media icon
-        with icon_col:
-            st.image(f"assets/images/{link.icon_path}", width=30)
+        # Create a container in the first column for the icon
+        with cols[0]:
+            # Create a clickable container for the icon
+            with st.container():
+                st.markdown(f'<a href="{link.url}" target="_blank">', unsafe_allow_html=True)
+                st.image(f"assets/images/{link.icon_path}", width=30)
+                st.markdown('</a>', unsafe_allow_html=True)
         
-        # Right column: Display the link with custom styling
-        with link_col:
+        # Create the text link in the second column
+        with cols[1]:
             st.markdown(
-                f'<a href="{link.url}" target="_blank" style="text-decoration: none; color: #0066cc; margin-left: -20px;">{link.name}</a>',
+                f'<a href="{link.url}" target="_blank" class="social-link">{link.name}</a>',
                 unsafe_allow_html=True
             )
