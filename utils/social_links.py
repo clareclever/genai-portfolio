@@ -14,22 +14,22 @@ def get_social_links() -> List[SocialLink]:
         SocialLink(
             name="LinkedIn",
             url=st.secrets["linkedin_url"],
-            icon_path="assets/images/LinkedIn.png"
+            icon_path="./assets/images/LinkedIn.png"
         ),
         SocialLink(
             name="Email",
             url=st.secrets["email"],
-            icon_path="assets/images/Email.png"
+            icon_path="./assets/images/Email.png"
         ),
         SocialLink(
             name="GitHub",
             url=st.secrets["github_url"],
-            icon_path="assets/images/GitHub.png"
+            icon_path="./assets/images/GitHub.png"
         ),
         SocialLink(
             name="Salesforce",
             url=st.secrets["salesforce_url"],
-            icon_path="assets/images/Salesforce.png"
+            icon_path="./assets/images/Salesforce.png"
         )
     ]
 
@@ -41,7 +41,7 @@ def render_social_links():
     for link in get_social_links():
         links_html += f'<div style="margin-bottom: 15px;">'
         links_html += f'<a href="{link.url}" target="_blank" style="text-decoration: none;">'
-        links_html += f'<img src="{link.icon_path}" style="width: 30px; vertical-align: middle; margin-right: 10px;">'
+        links_html += f'<img src="{link.icon_path}" style="width: 30px; height: 30px; vertical-align: middle; margin-right: 10px; object-fit: contain;">'
         links_html += f'<span style="color: #0066cc;">{link.name}</span></a>'
         links_html += '</div>'
     
