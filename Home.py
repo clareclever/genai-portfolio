@@ -17,19 +17,19 @@ HEADSHOT_PATH = "./assets/images/Headshot.png"
 
 # LinkedIn link
 LINKEDIN_ICON_PATH = "assets/images/LinkedIn.png"
-LINKEDIN_LINK = "https://www.linkedin.com/in/clareclever/"
+LINKEDIN_LINK = st.secrets["linkedin_url"]
 
 # Email link
 EMAIL_ICON_PATH = "assets/images/Email.png"
-EMAIL_LINK = "mailto:clare.clever@leidos.com"
+EMAIL_LINK = st.secrets["email"]
 
 # GitHub link
 GITHUB_ICON_PATH = "assets/images/GitHub.png"
-GITHUB_LINK = "https://github.com/clareclever"
+GITHUB_LINK = st.secrets["github_url"]
 
 # Salesforce link
 SALESFORCE_ICON_PATH = "assets/images/Salesforce.png"
-SALESFORCE_LINK = "https://www.salesforce.com/trailblazer/clareclever"
+SALESFORCE_LINK = st.secrets["salesforce_url"]
 
 # --- MAIN CONTENT ---
 # Create columns for layout
