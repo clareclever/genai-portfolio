@@ -97,6 +97,11 @@ def render_social_links():
             color: #0066cc;
             margin-left: -20px;
         }
+        .icon-link img {
+            width: 30px;
+            height: auto;
+            cursor: pointer;
+        }
         </style>
     """, unsafe_allow_html=True)
     
@@ -109,9 +114,15 @@ def render_social_links():
             # Load and display the image
             image_path = os.path.join(assets_dir, link.icon_path)
             if os.path.exists(image_path):
-                image = Image.open(image_path)
-                st.image(image, width=30)
-                st.link_button("", link.url, use_container_width=True)
+                # Convert image to base64 for inline HTML display
+                import base64
+                with open(image_path, "rb") as img_file:
+                    img_data = base64.b64encode(img_file.read()).decode()
+                
+                st.markdown(
+                    f'<a href="{link.url}" target="_blank" class="icon-link"><img src="data:image/png;base64,{img_data}" alt="{link.name}"></a>',
+                    unsafe_allow_html=True
+                )
             else:
                 st.write(f"Image not found: {link.icon_path}")
         
