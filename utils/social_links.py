@@ -24,6 +24,7 @@ class SocialLink:
     url: str
     icon_path: str
 
+# Function to get social links
 def get_social_links() -> List[SocialLink]:
     """
     Returns a list of social links with their configurations.
@@ -63,6 +64,7 @@ def get_social_links() -> List[SocialLink]:
         )
     ]
 
+# Function to render social links
 def render_social_links():
     """
     Renders social links in a clean, consistent format.
