@@ -8,6 +8,8 @@ with their associated icons in a consistent and visually appealing format.
 import streamlit as st
 from dataclasses import dataclass
 from typing import List
+import os
+from PIL import Image
 
 # Define the data structure for social media links
 @dataclass
@@ -77,17 +79,21 @@ def render_social_links():
        - Right column: Clickable link text
     4. Applies negative margins to reduce spacing between elements
     """
+    # Get the absolute path to the assets directory
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    assets_dir = os.path.join(os.path.dirname(current_dir), "assets", "images")
+    
     # Display the section header
     st.markdown("### Let's Connect!")
     
-    # Add custom CSS to reduce spacing between icon and text and style links
+    # Add custom CSS for styling
     st.markdown("""
         <style>
-        .stImage > img {
-            margin-right: -25px;  /* Increase negative margin to pull text closer */
+        div.row-widget.stHorizontal {
+            align-items: center;
         }
-        .social-link {
-            text-decoration: none;
+        .text-link {
+            text-decoration: none !important;
             color: #0066cc;
             margin-left: -20px;
         }
@@ -96,20 +102,22 @@ def render_social_links():
     
     # Iterate through social links and render each with icon and text
     for link in get_social_links():
-        # Create columns for the link layout
-        cols = st.columns([1, 6])  # Create two columns with 1:6 ratio
+        icon_column, text_column = st.columns([1, 6])
         
-        # Create a container in the first column for the icon
-        with cols[0]:
-            # Create a clickable container for the icon
-            with st.container():
-                st.markdown(f'<a href="{link.url}" target="_blank">', unsafe_allow_html=True)
-                st.image(f"assets/images/{link.icon_path}", width=30)
-                st.markdown('</a>', unsafe_allow_html=True)
+        # Display icon in first column
+        with icon_column:
+            # Load and display the image
+            image_path = os.path.join(assets_dir, link.icon_path)
+            if os.path.exists(image_path):
+                image = Image.open(image_path)
+                st.image(image, width=30)
+                st.link_button("", link.url, use_container_width=True)
+            else:
+                st.write(f"Image not found: {link.icon_path}")
         
-        # Create the text link in the second column
-        with cols[1]:
+        # Display text in second column
+        with text_column:
             st.markdown(
-                f'<a href="{link.url}" target="_blank" class="social-link">{link.name}</a>',
+                f'<a href="{link.url}" target="_blank" class="text-link">{link.name}</a>',
                 unsafe_allow_html=True
             )
