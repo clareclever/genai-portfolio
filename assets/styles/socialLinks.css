@@ -1,0 +1,42 @@
+/* Social Links Component Styling */
+/* Ensures horizontal alignment of social media links container */
+div.row-widget.stHorizontal {
+    align-items: center;
+}
+
+/* Text link styling for social media links */
+/* Removes default underline and sets custom color with !important to override defaults */
+.text-link {
+    text-decoration: none !important;
+    color: #20B2AA !important; /* Light sea green color */
+    margin-left: -18px; /* Negative margin to adjust spacing */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+/* Hover effect for text links */
+/* Slightly lighter shade of sea green on hover */
+.text-link:hover {
+    color: #2ec4bc !important;
+}
+
+/* Container styling for social media icons */
+/* Ensures proper inline display and spacing */
+.icon-link {
+    display: inline-block;
+    margin-right: -2px; /* Negative margin to fine-tune icon spacing */
+}
+
+/* Social media icon image styling */
+/* Sets consistent size and adds hover interactivity */
+.icon-link img {
+    width: 30px;
+    height: auto; /* Maintains aspect ratio */
+    cursor: pointer; /* Shows clickable pointer on hover */
+    transition: opacity 0.3s ease; /* Smooth opacity transition for hover effect */
+}
+
+/* Hover effect for social media icons */
+/* Reduces opacity to create a subtle fade effect */
+.icon-link:hover img {
+    opacity: 0.8;
+} 

@@ -26,7 +26,6 @@ class SocialLink:
     url: str
     icon_path: str
 
-# Function to get social links
 def get_social_links() -> List[SocialLink]:
     """
     Returns a list of social links with their configurations.
@@ -66,7 +65,6 @@ def get_social_links() -> List[SocialLink]:
         )
     ]
 
-# Function to render social links
 def render_social_links():
     """
     Renders social links in a clean, consistent format.
@@ -81,41 +79,18 @@ def render_social_links():
     """
     # Get the absolute path to the assets directory
     current_dir = os.path.dirname(os.path.abspath(__file__))
-    assets_dir = os.path.join(os.path.dirname(current_dir), "assets", "images")
+    parent_dir = os.path.dirname(current_dir)
+    assets_dir = os.path.join(parent_dir, "assets")
+    images_dir = os.path.join(assets_dir, "images")
+    styles_dir = os.path.join(assets_dir, "styles")
     
     # Display the section header
     st.markdown("### Let's Connect!")
     
-    # Add custom CSS for styling
-    st.markdown("""
-        <style>
-        div.row-widget.stHorizontal {
-            align-items: center;
-        }
-        .text-link {
-            text-decoration: none !important;
-            color: #20B2AA !important;
-            margin-left: -18px;
-            transition: color 0.3s ease;
-        }
-        .text-link:hover {
-            color: #2ec4bc !important;
-        }
-        .icon-link {
-            display: inline-block;
-            margin-right: -2px;
-        }
-        .icon-link img {
-            width: 30px;
-            height: auto;
-            cursor: pointer;
-            transition: opacity 0.3s ease;
-        }
-        .icon-link:hover img {
-            opacity: 0.8;
-        }
-        </style>
-    """, unsafe_allow_html=True)
+    # Load and apply CSS styling
+    css_path = os.path.join(styles_dir, "socialLinks.css")
+    with open(css_path, 'r') as css_file:
+        st.markdown(f'<style>{css_file.read()}</style>', unsafe_allow_html=True)
     
     # Iterate through social links and render each with icon and text
     for link in get_social_links():
@@ -124,7 +99,7 @@ def render_social_links():
         # Display icon in first column
         with icon_column:
             # Load and display the image
-            image_path = os.path.join(assets_dir, link.icon_path)
+            image_path = os.path.join(images_dir, link.icon_path)
             if os.path.exists(image_path):
                 # Convert image to base64 for inline HTML display
                 import base64
@@ -143,4 +118,4 @@ def render_social_links():
             st.markdown(
                 f'<a href="{link.url}" target="_blank" class="text-link">{link.name}</a>',
                 unsafe_allow_html=True
-            )
+            ) 
