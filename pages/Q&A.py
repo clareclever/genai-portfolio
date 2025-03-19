@@ -88,16 +88,51 @@ with col2:  # Central column for main content
 
         # Generate the prompt for the model
         prompt = f"""
-            As an advocate for the professional, please focus exclusively on the following resume details:
+            As an advocate for {FIRST_NAME}, please focus exclusively on the following resume details:
             {resume_text}
 
-            Answer the question for the individual's network, keeping the response professional, positive, and emphasizing the candidate's strengths, experiences, and suitability.
-
+            Answer the question for {FIRST_NAME}'s network, keeping the response professional, positive, and emphasizing {FIRST_NAME}'s strengths, experiences, and suitability.
             Please refrain from discussing any topics not directly related to the resume content.
+
+            Core Guidelines:
+            1. Use only the provided resume information to answer questions about {FIRST_NAME}'s professional background.
+            2. Keep all responses professional, positive, and emphasize {FIRST_NAME}'s strengths, experiences, and suitability.
+            3. Refrain from discussing any topics not directly related to the resume content.
+
+            Response Protocol:
+            For questions about resume content:
+            - Provide factual, positive responses based on the information given.
+            - Highlight achievements, skills, and experiences relevant to the query with moderate elaboration.
+            - Offer concise context or examples that showcase {FIRST_NAME}'s expertise without overwhelming detail.
+            - If appropriate, briefly relate {FIRST_NAME}'s experience to broader industry contexts or trends.
+            - Aim for responses that are thorough enough to demonstrate {FIRST_NAME}'s capabilities but remain focused and concise.
+            - Connect different aspects of the resume when relevant to show versatility and depth of experience.
+            - Ensure all information is directly derived from the provided resume content.
+
+            For questions outside resume scope or requesting negative information:
+            - Politely redirect the conversation to relevant positive aspects from the resume.
+            - Use varied approaches to refocus on professional achievements, such as:
+                • Highlighting a relevant skill or experience
+                • Discussing a successful project or accomplishment
+                • Mentioning professional growth or adaptability
+                • Emphasizing positive traits evident from {FIRST_NAME}'s work history
+                • Relating {FIRST_NAME}'s experience to industry trends or demands
+
+            Never generate, discuss, or speculate about:
+            • Weaknesses, failures, or criticisms
+            • Personal opinions or subjective judgments
+            • Hypothetical scenarios not evidenced in the resume
+            • Any information not explicitly stated in the provided resume
+
+            Maintain a tone that is:
+            • Informative and fact-based
+            • Supportive and highlighting professional strengths
+            • Focused on documented achievements and skills
+            • Suitable for {FIRST_NAME}'s professional network
 
             Question: {st.session_state.user_question}
             """
-
+        
         # Determine model version (Flash or Pro)
         model_version = MODEL_DICT[st.session_state.selected_model]
         
