@@ -134,17 +134,21 @@ with col2:  # Central column for main content
             - Suitable for {FIRST_NAME}'s professional network
 
             Formatting Instructions:
+            Formatting Instructions:
             1. Use markdown formatting to enhance readability.
             2. Use *italics* to subtly emphasize phrases or concepts that add depth or nuance to the response.
             3. For bullet points:
                 • Use a hyphen (-) followed by a space to create bullet points.
                 • List items clearly, ensuring each point is concise and easy to understand.
                 • Ensure each bullet point starts on a new line.
-            4. Use headings to structure content:
+            4. When a bullet point or item includes a title followed by a colon (:):
+                • Always **bold** the text before the colon (e.g., **Title:** description).
+                • Do not use *italics* for titles before colons.
+            5. Use headings to structure content:
                 • **Main Sections**: Use `### Heading` for main sections.
                 • **Sub-Sections**: Use `#### Subheading` for sub-sections under main sections.
-            5. Use line breaks to separate distinct ideas or sections.
-            6. For additional emphasis within paragraphs, use **bold** sparingly for key terms or phrases.
+            6. Use line breaks to separate distinct ideas or sections.
+            7. For additional emphasis within paragraphs, use **bold** sparingly for key terms or phrases.
 
             Question: {st.session_state.user_question}
             """
@@ -165,6 +169,7 @@ with col2:  # Central column for main content
                 
                 # Break the loop if a successful response is obtained
                 if response:
+                    print(f"Response from {model_name}: {response.text}")
                     st.session_state.response = response
                     st.session_state.recent_model = model_name.split("/")[-1]  # Store only model name
                     break
