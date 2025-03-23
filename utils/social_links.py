@@ -9,7 +9,6 @@ import streamlit as st
 from dataclasses import dataclass
 from typing import List
 import os
-from PIL import Image
 
 # Define the data structure for social media links
 @dataclass
@@ -118,4 +117,4 @@ def render_social_links():
             st.markdown(
                 f'<a href="{link.url}" target="_blank" class="text-link">{link.name}</a>',
                 unsafe_allow_html=True
-            ) 
+            )
