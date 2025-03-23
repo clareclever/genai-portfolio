@@ -169,7 +169,7 @@ with col2:  # Central column for main content
                 
                 # Break the loop if a successful response is obtained
                 if response:
-                    print(f"Response from {model_name}: {response.text}")
+                    # print(f"Response from {model_name}: {response.text}")
                     st.session_state.response = response
                     st.session_state.recent_model = model_name.split("/")[-1]  # Store only model name
                     break
