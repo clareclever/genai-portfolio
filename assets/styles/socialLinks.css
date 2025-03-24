@@ -9,7 +9,6 @@ div.row-widget.stHorizontal {
 .text-link {
     text-decoration: none !important;
     color: #20B2AA !important; /* Light sea green color */
-    margin-left: -18px; /* Negative margin to adjust spacing */
     transition: color 0.3s ease; /* Smooth color transition on hover */
 }
 
@@ -23,7 +22,6 @@ div.row-widget.stHorizontal {
 /* Ensures proper inline display and spacing */
 .icon-link {
     display: inline-block;
-    margin-right: -2px; /* Negative margin to fine-tune icon spacing */
 }
 
 /* Social media icon image styling */
