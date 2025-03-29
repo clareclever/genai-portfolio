@@ -83,9 +83,18 @@ with col2:  # Central column for main content
         
         # Set user question based on button or input field
         if question_type == "button":
-            st.session_state.user_question = input_question
+            # Populate the text input when a button is clicked, removing the emoji
+            if ' ' in input_question:  # Check if there's a space (to split emoji and text)
+                st.session_state.custom_input = input_question.split(' ', 1)[1]
+            else:
+                st.session_state.custom_input = input_question # Fallback if no space
+            st.session_state.user_question = input_question # Keep original question with emoji for the prompt
         else:
             st.session_state.user_question = st.session_state.custom_input
+
+        # Return early if the user question is empty
+        if not st.session_state.user_question:
+            return
 
         # Generate the prompt for the model
         prompt = f"""
@@ -190,10 +199,10 @@ with col2:  # Central column for main content
     # Display the buttons for the predefined questions
     for i, col in enumerate([col_q1, col_q2, col_q3]):
         question_text = st.session_state.button_questions[i]
-        col.button(question_text, on_click=send_prompt, args=(question_text,), key=f"q{i+1}_button")
+        col.button(question_text, on_click=send_prompt, args=(question_text, "button"), key=f"q{i+1}_button")
 
     # Text input for custom questions (centered)
-    custom_input = st.text_input("Type your question here:", key="custom_input", on_change=send_prompt, args=(None, 'input'))
+    custom_input = st.text_input("Type your question here:", key="custom_input", on_change=send_prompt, args=(None, "custom"))
 
 # Display response if available (centered within col2)
 if st.session_state.user_question and st.session_state.response:
