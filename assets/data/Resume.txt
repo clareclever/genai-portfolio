@@ -158,5 +158,5 @@ Minor: Data Science | Graduation: May 2021
 
 • Mentor Future Link students (Nov 2023-Present), guiding skill-building and career growth in SWE and AI/ML.
 • Mentor CS students at CofC (Nov 2018-Present), assisting with hackathons, events, and academic growth.
-• Built a dynamic Q&A app with Streamlit and Google Gemini, leveraging Generative AI for interactive exploration.
+• Built a Q&A app with Streamlit and Google Gemini, leveraging GenAI for interactive exploration of resume details.
 • Regularly compete in programming competitions, showcasing problem-solving, algorithmic thinking, and efficiency.
