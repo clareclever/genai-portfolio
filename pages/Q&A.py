@@ -33,7 +33,6 @@ PREDEFINED_QUESTIONS = [
 GEMINI_FLASH_MODELS = [
     "gemini-2.0-flash",
     "gemini-2.0-flash-lite",
-    "gemini-2.0-flash-exp"
 ]
 GEMINI_PRO_MODELS = [
     "gemini-2.5-pro-exp-03-25",
