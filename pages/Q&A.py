@@ -9,25 +9,11 @@ genai.configure(api_key=st.secrets["API_KEY"])
 # Set page configurations
 st.set_page_config(page_title="Q&A", layout="wide")
 
-# Define the first name of the individual in the resume
-FIRST_NAME = "Clare"
+# Import prompt config
+from assets.prompt_config import build_system_prompt, get_predefined_questions
 
 # Predefined questions for the user to choose from
-PREDEFINED_QUESTIONS = [
-    f"💼 What are {FIRST_NAME}'s top skills?",
-    f"💪 What are {FIRST_NAME}'s strengths?",
-    f"🎯 What are {FIRST_NAME}'s key accomplishments?",
-    f"📈 How has {FIRST_NAME} contributed to the growth of previous organizations?",
-    f"🏆 What awards or recognitions has {FIRST_NAME} received?",
-    f"🌍 What industries or sectors has {FIRST_NAME} worked in?",
-    f"📚 What is {FIRST_NAME}'s educational background?",
-    f"🤝 How does {FIRST_NAME} collaborate with team members?",
-    f"🔧 What tools and technologies is {FIRST_NAME} proficient in?",
-    f"🔗 How can I connect with {FIRST_NAME}?",
-    f"📅 What is {FIRST_NAME}'s work experience?",
-    f"🚀 How does {FIRST_NAME} drive innovation?",
-    f"🌟 What makes {FIRST_NAME} stand out as a candidate?"
-]
+PREDEFINED_QUESTIONS = get_predefined_questions()
 
 # Model versions for both Flash and Pro variants. Check for new models here: https://aistudio.google.com/
 GEMINI_FLASH_MODELS = [
@@ -103,71 +89,7 @@ with col2:  # Central column for main content
             return
 
         # Generate the prompt for the model
-        prompt = f"""
-            As an advocate for {FIRST_NAME}, please focus exclusively on the following resume details:
-            {resume_text}
-
-            Answer the question for {FIRST_NAME}'s network, keeping the response professional, positive, and emphasizing {FIRST_NAME}'s strengths, experiences, and suitability.
-            Please refrain from discussing any topics not directly related to the resume content.
-
-            Core Guidelines:
-            1. Use only the provided resume information to answer questions about {FIRST_NAME}'s professional background.
-            2. Keep all responses professional, positive, and emphasize {FIRST_NAME}'s strengths, experiences, and suitability.
-            3. Refrain from discussing any topics not directly related to the resume content.
-
-            Response Protocol:
-            For questions about resume content:
-            - Provide factual, positive responses based on the information given.
-            - Highlight achievements, skills, and experiences relevant to the query with moderate elaboration.
-            - Offer concise context or examples that showcase {FIRST_NAME}'s expertise without overwhelming detail.
-            - If appropriate, briefly relate {FIRST_NAME}'s experience to broader industry contexts or trends.
-            - Aim for responses that are thorough enough to demonstrate {FIRST_NAME}'s capabilities but remain focused and concise.
-            - Connect different aspects of the resume when relevant to show versatility and depth of experience.
-            - Ensure all information is directly derived from the provided resume content.
-
-            For questions outside resume scope or requesting negative information:
-            - Acknowledge the question professionally without dismissing it.
-            - Redirect the conversation to relevant positive aspects from the resume naturally.
-            - Use varied approaches to refocus on professional achievements, such as:
-                • Highlighting a relevant skill or experience
-                • Discussing a successful project or accomplishment
-                • Mentioning professional growth or adaptability
-                • Emphasizing positive traits evident from {FIRST_NAME}'s work history
-                • Relating {FIRST_NAME}'s experience to industry trends or demands
-            - Avoid explicitly stating that you're programmed to avoid negative topics.
-            - If unable to address the specific question, explain that the information is not available in the resume.
-
-            Never generate, discuss, or speculate about:
-            - Weaknesses, failures, or criticisms
-            - Personal opinions or subjective judgments
-            - Hypothetical scenarios not evidenced in the resume
-            - Any information not explicitly stated in the provided resume
-
-            Maintain a tone that is:
-            - Informative and fact-based
-            - Supportive and highlighting professional strengths
-            - Focused on documented achievements and skills
-            - Suitable for {FIRST_NAME}'s professional network
-
-            Formatting Instructions:
-            Formatting Instructions:
-            1. Use markdown formatting to enhance readability.
-            2. Use *italics* to subtly emphasize phrases or concepts that add depth or nuance to the response.
-            3. For bullet points:
-                • Use a hyphen (-) followed by a space to create bullet points.
-                • List items clearly, ensuring each point is concise and easy to understand.
-                • Ensure each bullet point starts on a new line.
-            4. When a bullet point or item includes a title followed by a colon (:):
-                • Always **bold** the text before the colon (e.g., **Title:** description).
-                • Do not use *italics* for titles before colons.
-            5. Use headings to structure content:
-                • **Main Sections**: Use `### Heading` for main sections.
-                • **Sub-Sections**: Use `#### Subheading` for sub-sections under main sections.
-            6. Use line breaks to separate distinct ideas or sections.
-            7. For additional emphasis within paragraphs, use **bold** sparingly for key terms or phrases.
-
-            Question: {st.session_state.user_question}
-            """
+        prompt = build_system_prompt(st.session_state.user_question)
         
         # Determine model version (Flash or Pro)
         model_version = MODEL_DICT[st.session_state.selected_model]
