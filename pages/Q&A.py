@@ -49,6 +49,9 @@ MODEL_DICT = {
     "Gemini Pro - tasks requiring deep analysis and extended context.": "Pro"
 }
 
+# Debug mode variable
+DEBUG_MODE = False
+
 # Initialize session state variables
 session_vars = ["custom_input", "user_question", "response", "button_questions", "recent_model"]
 default_values = ["", "", "", random.sample(PREDEFINED_QUESTIONS, 3), ""]
@@ -87,7 +90,7 @@ with col2:  # Central column for main content
         # Set user question based on button or input field
         if question_type == "button":
             # Populate the text input when a button is clicked, removing the emoji
-            if ' ' in input_question:  # Check if there's a space (to split emoji and text)
+            if input_question is not None and ' ' in input_question:  # Check if there's a space (to split emoji and text)
                 st.session_state.custom_input = input_question.split(' ', 1)[1]
             else:
                 st.session_state.custom_input = input_question # Fallback if no space
@@ -182,15 +185,17 @@ with col2:  # Central column for main content
                 
                 # Break the loop if a successful response is obtained
                 if response:
-                    # Print the response for debugging purposes (optional)
-                    # print(f"Response from {model_name}: {response.text}")
+                    # Show the response for debugging purposes (optional)
+                    if DEBUG_MODE:
+                        print(f"Response from {model_name}:\n {response.text}")
                     st.session_state.response = response
                     st.session_state.recent_model = model_name.split("/")[-1]  # Store only model name
                     break
             
             # Handle exceptions and continue to the next model
             except Exception as e:
-                print(f"Error with model {model_name}: {e}")
+                if DEBUG_MODE:
+                    print(f"Error with model {model_name}:\n {e}")
         
         # Display a warning if no response is available
         if not st.session_state.response:
