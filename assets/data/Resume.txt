@@ -16,6 +16,11 @@ Company: Leidos
 Dates: Jan 2025 to Present
 Type: Full-time
 Location: Washington DC-Baltimore Area · Remote
+• Rapidly prototype innovative Salesforce solutions to optimize vital Military Health operations.
+• Design and engineer scalable enterprise services, building reusable, versatile software components.
+• Accelerate time-to-market for high-impact outcomes, ensuring rapid and measurable value delivery.
+• Apply deep Salesforce expertise to create robust, adaptable solutions for Federal use cases.
+• Secure crucial stakeholder adoption via compelling live demos and innovative Military Health apps.
 
 Title: Air Traffic Logistics Engineer (II)
 Company: Leidos
