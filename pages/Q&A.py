@@ -15,17 +15,15 @@ from assets.prompt_config import build_system_prompt, get_predefined_questions
 # Predefined questions for the user to choose from
 PREDEFINED_QUESTIONS = get_predefined_questions()
 
-# Model versions for both Flash and Pro variants. Check for new models here: https://aistudio.google.com/
+# Model versions for both Flash and Pro variants. Check for new models here: https://aistudio.google.com/ & https://ai.google.dev/gemini-api/docs/models
 GEMINI_FLASH_MODELS = [
-    "gemini-2.5-flash-preview-05-20",
-    "gemini-2.5-flash-preview-04-17",
+    "gemini-2.5-flash",
     "gemini-2.0-flash",
-    "gemini-2.0-flash-lite"
+    "gemini-2.0-flash-lite",
+    "gemini-1.5-flash"
 ]
 GEMINI_PRO_MODELS = [
-    "gemini-2.5-pro-preview-05-06",
-    "gemini-2.5-pro-exp-03-25",
-    "gemini-2.0-pro-exp-02-05",
+    "gemini-2.5-pro",
     "gemini-1.5-pro"
 ]
 
