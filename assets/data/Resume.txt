@@ -40,7 +40,7 @@ Location: Washington DC-Baltimore Area · Remote
 = E-IDS (Enterprise Information Display System) is part of the FAA's NextGen initiative, modernizing information management by consolidating real-time data to enhance situational awareness and decision-making for air traffic controllers.
 Skills: Operations Management · Warranty Administration · Inventory Management · Logistics Management · Help Desk Support · Data Analysis
 
-Title: Enterprise Security Integration Engineer (II)
+Title: Data Center Security Engineer (II)
 Company: Leidos
 Dates: Sep 2023 to Apr 2024 · 8 mos
 Type: Full-time
